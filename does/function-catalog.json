@@ -1,0 +1,6655 @@
+{
+  "scope": "Complete menuData and bnPriv permission definitions observed in the captured queryMenu response; current account visibility only.",
+  "provenance": {
+    "evidence_file": "evidence/002-menus.json",
+    "evidence_id": "ev_25226ae15c591aa25247b4d7ef5e89e5ddd4162209de1bcb9259a6a2f7d462cc",
+    "endpoint": "/portal/menu/queryMenu",
+    "transaction_id": "request-30",
+    "response_content_event_sequence": 171,
+    "response_sha256": "95cfd084bead507f5082ffc95c8e2c8a6e6f62dca38fb87493d70a429a76437d",
+    "response_body_state": "captured"
+  },
+  "counts": {
+    "module_count": 9,
+    "second_level_menu_count": 79,
+    "menu_entry_count": 88,
+    "button_permission_owner_count": 72,
+    "button_permission_definition_count": 285
+  },
+  "entries": [
+    {
+      "module": "客户服务",
+      "name": "客户服务",
+      "menu_id": 1,
+      "privilege_code": "100",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100",
+        "PRIVILEGE_ID": 1,
+        "PARENT_PRIVILEGE_ID": -1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "客户服务",
+        "IMAGE_DIS": "images/nav_icon1.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "服务调度",
+      "name": "服务调度",
+      "menu_id": 2,
+      "privilege_code": "200",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "200",
+        "PRIVILEGE_ID": 2,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "服务调度",
+        "IMAGE_DIS": "images/nav_icon2.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "配置管理",
+      "menu_id": 596,
+      "privilege_code": "920",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920",
+        "PRIVILEGE_ID": 596,
+        "PARENT_PRIVILEGE_ID": -1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "配置管理",
+        "IMAGE_DIS": "images/nav_icon8.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "客户管理",
+      "name": "客户管理",
+      "menu_id": 3,
+      "privilege_code": "300",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "300",
+        "PRIVILEGE_ID": 3,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "客户管理",
+        "IMAGE_DIS": "images/nav_icon3.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "运营中心",
+      "menu_id": 4,
+      "privilege_code": "400",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "400",
+        "PRIVILEGE_ID": 4,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "运营中心",
+        "IMAGE_DIS": "images/nav_icon4.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "综合查询",
+      "menu_id": 5,
+      "privilege_code": "500",
+      "url": "",
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "500",
+        "PRIVILEGE_ID": 5,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "综合查询",
+        "IMAGE_DIS": "images/nav_icon5.png",
+        "URL": "",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "统计中心",
+      "menu_id": 6,
+      "privilege_code": "600",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "600",
+        "PRIVILEGE_ID": 6,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "统计中心",
+        "IMAGE_DIS": "images/nav_icon6.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "报表管理",
+      "menu_id": 1000000004,
+      "privilege_code": "930",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "930",
+        "PRIVILEGE_ID": 1000000004,
+        "PARENT_PRIVILEGE_ID": -1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "报表管理",
+        "IMAGE_DIS": "images/nav_icon9.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "系统中心",
+      "menu_id": 7,
+      "privilege_code": "700",
+      "url": null,
+      "level": 1,
+      "parent_menu_id": -1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "700",
+        "PRIVILEGE_ID": 7,
+        "PARENT_PRIVILEGE_ID": -1,
+        "PRIVILEGE_NAME": "系统中心",
+        "IMAGE_DIS": "images/nav_icon7.png",
+        "LEVEL_ID": 1
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "员工评价报表",
+      "menu_id": 1000001212,
+      "privilege_code": "930100",
+      "url": "/web-report/pc/html/employeeEvaluationStatement/groupView1.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "930100",
+        "PRIVILEGE_ID": 1000001212,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "员工评价报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/employeeEvaluationStatement/groupView1.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "用户管理",
+      "menu_id": 14,
+      "privilege_code": "700100",
+      "url": "/web-sys/pc/html/empee/empee_list.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "700100",
+        "PRIVILEGE_ID": 14,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "用户管理",
+        "URL": "/web-sys/pc/html/empee/empee_list.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "服务调度",
+      "name": "诉求管理",
+      "menu_id": 22,
+      "privilege_code": "200100",
+      "url": "/web-cust/pc/html/work/sqgl.html",
+      "level": 2,
+      "parent_menu_id": 2,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "200100",
+        "PRIVILEGE_ID": 22,
+        "PARENT_PRIVILEGE_ID": 2,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "诉求管理",
+        "URL": "/web-cust/pc/html/work/sqgl.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户管理",
+      "name": "客户管理",
+      "menu_id": 102,
+      "privilege_code": "300001",
+      "url": "/web-cust/pc/html/Customers/CustomerList.html",
+      "level": 2,
+      "parent_menu_id": 3,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "300001",
+        "PRIVILEGE_ID": 102,
+        "PARENT_PRIVILEGE_ID": 3,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "客户管理",
+        "URL": "/web-cust/pc/html/Customers/CustomerList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "公告公示",
+      "menu_id": 60,
+      "privilege_code": "400112",
+      "url": "/web-bus/pc/html/procla/proclaList.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "400112",
+        "PRIVILEGE_ID": 60,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "公告公示",
+        "URL": "/web-bus/pc/html/procla/proclaList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "综合查询",
+      "menu_id": 121,
+      "privilege_code": "500001",
+      "url": "/web-seo/pc/html/zhcx/zhcx.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "500001",
+        "PRIVILEGE_ID": 121,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "综合查询",
+        "URL": "/web-seo/pc/html/zhcx/zhcx.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "电子发票管理",
+      "menu_id": 1000000013,
+      "privilege_code": "100112",
+      "url": "/web-cust/pc/html/invoiceSalesInfo/invoiceSalesInfoList.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100112",
+        "PRIVILEGE_ID": 1000000013,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "电子发票管理",
+        "URL": "/web-cust/pc/html/invoiceSalesInfo/invoiceSalesInfoList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "装修配置",
+      "menu_id": 1000000428,
+      "privilege_code": "920019",
+      "url": "/web-bus/pc/html/decorationConfig/decorationConfig.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920019",
+        "PRIVILEGE_ID": 1000000428,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修配置",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/decorationConfig/decorationConfig.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "图片管理",
+      "menu_id": 597,
+      "privilege_code": "920001",
+      "url": "/web-cust/pc/html/confManagement/imgConfList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 500,
+      "source_fields": {
+        "APP_ID": 500,
+        "PRIVILEGE_CODE": "920001",
+        "PRIVILEGE_ID": 597,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "图片管理",
+        "URL": "/web-cust/pc/html/confManagement/imgConfList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "待办任务",
+      "menu_id": 1000000008,
+      "privilege_code": "100103",
+      "url": "/web-cust/pc/html/workbench/toDoTask.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100103",
+        "PRIVILEGE_ID": 1000000008,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "待办任务",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/workbench/toDoTask.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "报事",
+      "menu_id": 8,
+      "privilege_code": "100101",
+      "url": "/web-cust/pc/html/work/sqgl.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100101",
+        "PRIVILEGE_ID": 8,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "报事",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/work/sqgl.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "服务调度",
+      "name": "管家关系配置",
+      "menu_id": 23,
+      "privilege_code": "200200",
+      "url": "/web-cust/pc/html/stewardConfig/stewardConfigList.html",
+      "level": 2,
+      "parent_menu_id": 2,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "200200",
+        "PRIVILEGE_ID": 23,
+        "PARENT_PRIVILEGE_ID": 2,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "管家关系配置",
+        "URL": "/web-cust/pc/html/stewardConfig/stewardConfigList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "角色管理",
+      "menu_id": 15,
+      "privilege_code": "700200",
+      "url": "/web-sys/pc/html/roleManage/roleList.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "700200",
+        "PRIVILEGE_ID": 15,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "角色管理",
+        "URL": "/web-sys/pc/html/roleManage/roleList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "广告管理",
+      "menu_id": 73,
+      "privilege_code": "400200",
+      "url": "/web-bus/pc/html/admanage/advertisingList.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "400200",
+        "PRIVILEGE_ID": 73,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "广告管理",
+        "URL": "/web-bus/pc/html/admanage/advertisingList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户管理",
+      "name": "房产管理",
+      "menu_id": 117,
+      "privilege_code": "300002",
+      "url": "/web-cust/pc/html/Customers/HourseList.html",
+      "level": 2,
+      "parent_menu_id": 3,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "300002",
+        "PRIVILEGE_ID": 117,
+        "PARENT_PRIVILEGE_ID": 3,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "房产管理",
+        "URL": "/web-cust/pc/html/Customers/HourseList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "开门记录",
+      "menu_id": 628,
+      "privilege_code": "500002",
+      "url": "/web-seo/pc/html/telOpenDoor/telOpenDoorList.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 800,
+      "source_fields": {
+        "APP_ID": 800,
+        "PRIVILEGE_CODE": "500002",
+        "PRIVILEGE_ID": 628,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "开门记录",
+        "URL": "/web-seo/pc/html/telOpenDoor/telOpenDoorList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "门设备管理",
+      "menu_id": 625,
+      "privilege_code": "920003",
+      "url": "/web-bus/pc/html/DoorEquipmentManagement/doorEquipList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 500,
+      "source_fields": {
+        "APP_ID": 500,
+        "PRIVILEGE_CODE": "920003",
+        "PRIVILEGE_ID": 625,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "门设备管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/DoorEquipmentManagement/doorEquipList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "消息模板",
+      "menu_id": 77,
+      "privilege_code": "400300",
+      "url": "/web-bus/pc/html/templateManage/templateList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "400300",
+        "PRIVILEGE_ID": 77,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "消息模板",
+        "URL": "/web-bus/pc/html/templateManage/templateList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "用户使用详情",
+      "menu_id": 605,
+      "privilege_code": "600300",
+      "url": "/web-seo/pc/html/useInfo/useInfo.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600300",
+        "PRIVILEGE_ID": 605,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "用户使用详情",
+        "URL": "/web-seo/pc/html/useInfo/useInfo.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "代缴代扣管理",
+      "menu_id": 6221,
+      "privilege_code": "100234",
+      "url": "/web-cust/pc/html/bankWithholding/bankWithholding.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100234",
+        "PRIVILEGE_ID": 6221,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "代缴代扣管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/bankWithholding/bankWithholding.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "客户号码变更查询",
+      "menu_id": 1000000002,
+      "privilege_code": "500003",
+      "url": "/web-seo/pc/html/custUpdateLog/custUpdateLog.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "500003",
+        "PRIVILEGE_ID": 1000000002,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "客户号码变更查询",
+        "URL": "/web-seo/pc/html/custUpdateLog/custUpdateLog.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "问卷配置",
+      "menu_id": 704,
+      "privilege_code": "920004",
+      "url": "/web-bus/pc/html/questionsConfig/questionsConfigList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 500,
+      "source_fields": {
+        "APP_ID": 500,
+        "PRIVILEGE_CODE": "920004",
+        "PRIVILEGE_ID": 704,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "问卷配置",
+        "URL": "/web-bus/pc/html/questionsConfig/questionsConfigList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "员工登录清单",
+      "menu_id": 608,
+      "privilege_code": "600400",
+      "url": "/web-seo/pc/html/staffLoginList/staffLoginList.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600400",
+        "PRIVILEGE_ID": 608,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "员工登录清单",
+        "URL": "/web-seo/pc/html/staffLoginList/staffLoginList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "放行条",
+      "menu_id": 12,
+      "privilege_code": "100105",
+      "url": "/web-cust/pc/html/releaseBar/releaseBarList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100105",
+        "PRIVILEGE_ID": 12,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "放行条",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/releaseBar/releaseBarList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "服务调度",
+      "menu_id": 4121,
+      "privilege_code": "600820",
+      "url": "/web-report/pc/html/schedulingEfficiency/efficiencyView1.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "600820",
+        "PRIVILEGE_ID": 4121,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "服务调度",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/schedulingEfficiency/efficiencyView1.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "便民电话",
+      "menu_id": 82,
+      "privilege_code": "400500",
+      "url": "/web-cust/pc/html/fastTelephone/telephoneList.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "400500",
+        "PRIVILEGE_ID": 82,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "便民电话",
+        "URL": "/web-cust/pc/html/fastTelephone/telephoneList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "业主登录清单",
+      "menu_id": 609,
+      "privilege_code": "600500",
+      "url": "/web-seo/pc/html/esmpLoginCust/esmpLoginCustList.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "600500",
+        "PRIVILEGE_ID": 609,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "业主登录清单",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/esmpLoginCust/esmpLoginCustList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "服务中心管理",
+      "menu_id": 19,
+      "privilege_code": "700600",
+      "url": "/web-sys/pc/html/centermanagement/centerone.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "700600",
+        "PRIVILEGE_ID": 19,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "服务中心管理",
+        "URL": "/web-sys/pc/html/centermanagement/centerone.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "诉求管理",
+      "menu_id": 4122,
+      "privilege_code": "600830",
+      "url": "/web-report/pc/html/accountStatement/accountStatementList.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "600830",
+        "PRIVILEGE_ID": 4122,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "诉求管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/accountStatement/accountStatementList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "问卷结果",
+      "menu_id": 635,
+      "privilege_code": "600600",
+      "url": "/web-seo/pc/html/QuestionnaireResult/questionList.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600600",
+        "PRIVILEGE_ID": 635,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "问卷结果",
+        "URL": "/web-seo/pc/html/QuestionnaireResult/questionList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "访客预约",
+      "menu_id": 13,
+      "privilege_code": "100106",
+      "url": "/web-cust/pc/html/visitorBespeak/listVisitorBespeakPC.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100106",
+        "PRIVILEGE_ID": 13,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "访客预约",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/visitorBespeak/listVisitorBespeakPC.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "费用查询",
+      "menu_id": 615,
+      "privilege_code": "600006",
+      "url": "/web-seo/pc/html/chargeQuery/chargeQueryList.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 800,
+      "source_fields": {
+        "APP_ID": 800,
+        "PRIVILEGE_CODE": "600006",
+        "PRIVILEGE_ID": 615,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "费用查询",
+        "URL": "/web-seo/pc/html/chargeQuery/chargeQueryList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "投诉",
+      "menu_id": 25,
+      "privilege_code": "100107",
+      "url": "/web-cust/pc/html/work/tsList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100107",
+        "PRIVILEGE_ID": 25,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "投诉",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/work/tsList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "用户量",
+      "menu_id": 821,
+      "privilege_code": "600700",
+      "url": "/web-report/pc/html/userStatistics/ReportUserStatisticsRegisterList.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "600700",
+        "PRIVILEGE_ID": 821,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "用户量",
+        "URL": "/web-report/pc/html/userStatistics/ReportUserStatisticsRegisterList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "房产交易",
+      "menu_id": 116,
+      "privilege_code": "400700",
+      "url": "/web-bus/pc/html/houseSell/houseSellList.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "400700",
+        "PRIVILEGE_ID": 116,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "房产交易",
+        "URL": "/web-bus/pc/html/houseSell/houseSellList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "消息发送",
+      "menu_id": 595,
+      "privilege_code": "700700",
+      "url": "/web-sys/pc/html/messageManage/messageList.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "700700",
+        "PRIVILEGE_ID": 595,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "消息发送",
+        "URL": "/web-sys/pc/html/messageManage/messageList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "积分报表",
+      "menu_id": 5721,
+      "privilege_code": "930888",
+      "url": "/web-cust/pc/html/integralStatements/integralStatementsByOrg.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "930888",
+        "PRIVILEGE_ID": 5721,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "积分报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/integralStatements/integralStatementsByOrg.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "评价二维码管理",
+      "menu_id": 5121,
+      "privilege_code": "920008",
+      "url": "/web-bus/pc/html/scanEvaluate/qrCode/qrCodeList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 500,
+      "source_fields": {
+        "APP_ID": 500,
+        "PRIVILEGE_CODE": "920008",
+        "PRIVILEGE_ID": 5121,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "评价二维码管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/scanEvaluate/qrCode/qrCodeList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "员工评价",
+      "menu_id": 6321,
+      "privilege_code": "100129",
+      "url": "/web-bus/pc/html/evaluationRecords/evaluationRecords.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100129",
+        "PRIVILEGE_ID": 6321,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "员工评价",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/evaluationRecords/evaluationRecords.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "一户一档",
+      "menu_id": 1000001308,
+      "privilege_code": "500005",
+      "url": "/un-pc-fronted/#/formsManagement/gearPerHousehold/index",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "500005",
+        "PRIVILEGE_ID": 1000001308,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "一户一档",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/formsManagement/gearPerHousehold/index",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "工作计划报表",
+      "menu_id": 5821,
+      "privilege_code": "930900",
+      "url": "/web-seo/pc/html/workPlanStatement/groupView1.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "930900",
+        "PRIVILEGE_ID": 5821,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "工作计划报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/workPlanStatement/groupView1.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "认证申请",
+      "menu_id": 1221,
+      "privilege_code": "100110",
+      "url": "/web-cust/pc/html/certificationApplication/caList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100110",
+        "PRIVILEGE_ID": 1221,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "认证申请",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/certificationApplication/caList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "接口日志管理",
+      "menu_id": 5521,
+      "privilege_code": "700900",
+      "url": "/web-sys/pc/html/interfaceLogManage/interfaceLogList.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 600,
+      "source_fields": {
+        "APP_ID": 600,
+        "PRIVILEGE_CODE": "700900",
+        "PRIVILEGE_ID": 5521,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "接口日志管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-sys/pc/html/interfaceLogManage/interfaceLogList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "公开问答报表管理",
+      "menu_id": 5921,
+      "privilege_code": "920006",
+      "url": "/web-cust/pc/html/faq/faqStatementsByCity.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "920006",
+        "PRIVILEGE_ID": 5921,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "公开问答报表管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/faq/faqStatementsByCity.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "手机开门推送配置",
+      "menu_id": 1000000053,
+      "privilege_code": "920012",
+      "url": "/web-bus/pc/html/openDoor/push_manage_list.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "920012",
+        "PRIVILEGE_ID": 1000000053,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "手机开门推送配置",
+        "URL": "/web-bus/pc/html/openDoor/push_manage_list.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "员工受欢迎指数报表",
+      "menu_id": 1000000621,
+      "privilege_code": "600701",
+      "url": "/web-seo/pc/html/StaffPopularity/staff_popularity_orglist.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "600701",
+        "PRIVILEGE_ID": 1000000621,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "员工受欢迎指数报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/StaffPopularity/staff_popularity_orglist.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "过程效率",
+      "menu_id": 3221,
+      "privilege_code": "600810",
+      "url": "/web-report/pc/html/processEfficiency/efficiencyView.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600810",
+        "PRIVILEGE_ID": 3221,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "过程效率",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/processEfficiency/efficiencyView.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "星海图",
+      "menu_id": 1621,
+      "privilege_code": "600910",
+      "url": "/web-report/pc/html/viewport/viewportImage.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 600,
+      "source_fields": {
+        "APP_ID": 600,
+        "PRIVILEGE_CODE": "600910",
+        "PRIVILEGE_ID": 1621,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "星海图",
+        "URL": "/web-report/pc/html/viewport/viewportImage.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "电梯管理",
+      "menu_id": 1000002512,
+      "privilege_code": "920988",
+      "url": "/web-bus/pc/html/elevatorManage/elevator_manage.html?checkVisitor=1",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920988",
+        "PRIVILEGE_ID": 1000002512,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "电梯管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/elevatorManage/elevator_manage.html?checkVisitor=1",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "系统中心",
+      "name": "消息通知",
+      "menu_id": 6023,
+      "privilege_code": "701100",
+      "url": "/portal/notice/notice.html",
+      "level": 2,
+      "parent_menu_id": 7,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "701100",
+        "PRIVILEGE_ID": 6023,
+        "PARENT_PRIVILEGE_ID": 7,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "消息通知",
+        "URL": "/portal/notice/notice.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "评价结果",
+      "menu_id": 1000000015,
+      "privilege_code": "100113",
+      "url": "/web-cust/pc/html/commentResult/commentResult.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100113",
+        "PRIVILEGE_ID": 1000000015,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "评价结果",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/commentResult/commentResult.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "社区活动",
+      "menu_id": 2121,
+      "privilege_code": "400120",
+      "url": "/web-odm/pc/html/communityActivity/communityActivityList.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "400120",
+        "PRIVILEGE_ID": 2121,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "社区活动",
+        "URL": "/web-odm/pc/html/communityActivity/communityActivityList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "装修信息报表",
+      "menu_id": 1000003718,
+      "privilege_code": "930912",
+      "url": "/web-report/pc/html/fitmentMsgReport/index.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "930912",
+        "PRIVILEGE_ID": 1000003718,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修信息报表",
+        "URL": "/web-report/pc/html/fitmentMsgReport/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "工作计划",
+      "menu_id": 1000000042,
+      "privilege_code": "100117",
+      "url": "/web-cust/pc/html/workPlan/workPlanList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100117",
+        "PRIVILEGE_ID": 1000000042,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "工作计划",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/workPlan/workPlanList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "抵扣券导入\r\n",
+      "menu_id": 1000003618,
+      "privilege_code": "920013",
+      "url": "/web-cust/pc/html/deductionVoucher/deductionVoucherList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 500,
+      "source_fields": {
+        "APP_ID": 500,
+        "PRIVILEGE_CODE": "920013",
+        "PRIVILEGE_ID": 1000003618,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "抵扣券导入\r\n",
+        "URL": "/web-cust/pc/html/deductionVoucher/deductionVoucherList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "装修户巡查动态报表",
+      "menu_id": 1000003719,
+      "privilege_code": "930913",
+      "url": "/web-report/pc/html/activeReport/index.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "930913",
+        "PRIVILEGE_ID": 1000003719,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修户巡查动态报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/activeReport/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "邻里社交",
+      "menu_id": 136,
+      "privilege_code": "100108",
+      "url": "/web-odm/pc/html/neighbourSocial/neighbourSocialList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "100108",
+        "PRIVILEGE_ID": 136,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "邻里社交",
+        "IMAGE_DIS": "",
+        "URL": "/web-odm/pc/html/neighbourSocial/neighbourSocialList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "报告台岗位管理\r\n",
+      "menu_id": 1000003627,
+      "privilege_code": "920014",
+      "url": "/web-cust/pc/html/report/postPoolList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "920014",
+        "PRIVILEGE_ID": 1000003627,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "报告台岗位管理\r\n",
+        "URL": "/web-cust/pc/html/report/postPoolList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "活跃度统计报表",
+      "menu_id": 1000003614,
+      "privilege_code": "600904",
+      "url": "/web-cust/pc/html/activationForOrg/activationForOrg.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600904",
+        "PRIVILEGE_ID": 1000003614,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "活跃度统计报表",
+        "URL": "/web-cust/pc/html/activationForOrg/activationForOrg.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "报告台基础配置管理\r\n",
+      "menu_id": 1000003628,
+      "privilege_code": "920015",
+      "url": "/web-cust/pc/html/report/baseConfigList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "920015",
+        "PRIVILEGE_ID": 1000003628,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "报告台基础配置管理\r\n",
+        "URL": "/web-cust/pc/html/report/baseConfigList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "意见反馈",
+      "menu_id": 1721,
+      "privilege_code": "100901",
+      "url": "/web-seo/pc/html/feedbackInfo/feedbackInfoList.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100901",
+        "PRIVILEGE_ID": 1721,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "意见反馈",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/feedbackInfo/feedbackInfoList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "质检员点位管理",
+      "menu_id": 1000003639,
+      "privilege_code": "920016",
+      "url": "/web-cust/pc/html/inspectionManagement/inspeConfList.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "920016",
+        "PRIVILEGE_ID": 1000003639,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "质检员点位管理",
+        "IMAGE_DIS": "",
+        "URL": "/web-cust/pc/html/inspectionManagement/inspeConfList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "活动",
+      "menu_id": 95,
+      "privilege_code": "101000",
+      "url": "/web-odm/pc/html/groupBusiness/activityList.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "101000",
+        "PRIVILEGE_ID": 95,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "活动",
+        "IMAGE_DIS": "",
+        "URL": "/web-odm/pc/html/groupBusiness/activityList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "运营中心",
+      "name": "议事大厅",
+      "menu_id": 1000000019,
+      "privilege_code": "100114",
+      "url": "/web-cust/pc/html/discuss/discuss_list.html",
+      "level": 2,
+      "parent_menu_id": 4,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100114",
+        "PRIVILEGE_ID": 1000000019,
+        "PARENT_PRIVILEGE_ID": 4,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "议事大厅",
+        "URL": "/web-cust/pc/html/discuss/discuss_list.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "综合查询",
+      "name": "违约金减免清单",
+      "menu_id": 1000003704,
+      "privilege_code": "600908",
+      "url": "/web-seo/pc/html/liquidatedList/liquidatedList.html",
+      "level": 2,
+      "parent_menu_id": 5,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600908",
+        "PRIVILEGE_ID": 1000003704,
+        "PARENT_PRIVILEGE_ID": 5,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "违约金减免清单",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/liquidatedList/liquidatedList.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "品检追踪",
+      "menu_id": 1000000813,
+      "privilege_code": "600911",
+      "url": "/web-seo/pc/html/qualityProblemsTrack/index.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 200,
+      "source_fields": {
+        "APP_ID": 200,
+        "PRIVILEGE_CODE": "600911",
+        "PRIVILEGE_ID": 1000000813,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "品检追踪",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/qualityProblemsTrack/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "扫码评价运营报表",
+      "menu_id": 1000003310,
+      "privilege_code": "600912",
+      "url": "/web-seo/pc/html/CodeScanningEvaluationReport/codeEvaluationView.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "600912",
+        "PRIVILEGE_ID": 1000003310,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "扫码评价运营报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/CodeScanningEvaluationReport/codeEvaluationView.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "空置房申请",
+      "menu_id": 1000000810,
+      "privilege_code": "100267",
+      "url": "/web-bus/pc/html/vacantRoomApply/vacantRoomApplyPC.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100267",
+        "PRIVILEGE_ID": 1000000810,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "空置房申请",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/vacantRoomApply/vacantRoomApplyPC.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "管家服务分析看板",
+      "menu_id": 1000001008,
+      "privilege_code": "930915",
+      "url": "/un-pc-fronted/#/formsManagement/wecomHousekeepBoard/index",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "930915",
+        "PRIVILEGE_ID": 1000001008,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "管家服务分析看板",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/formsManagement/wecomHousekeepBoard/index",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "空置房配置",
+      "menu_id": 1000000717,
+      "privilege_code": "920018",
+      "url": "/web-bus/pc/html/vacantRoomConfigure/vacantRoomConfigureByPC.html",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920018",
+        "PRIVILEGE_ID": 1000000717,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "空置房配置",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/vacantRoomConfigure/vacantRoomConfigureByPC.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "报表管理",
+      "name": "企微管家应用情况",
+      "menu_id": 1000000908,
+      "privilege_code": "930914",
+      "url": "/web-report/pc/html/wecomReport/index.html",
+      "level": 2,
+      "parent_menu_id": 1000000004,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "930914",
+        "PRIVILEGE_ID": 1000000908,
+        "PARENT_PRIVILEGE_ID": 1000000004,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "企微管家应用情况",
+        "IMAGE_DIS": "",
+        "URL": "/web-report/pc/html/wecomReport/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "缴费二维码管理",
+      "menu_id": 1000001408,
+      "privilege_code": "920989",
+      "url": "/un-pc-fronted/#/formsManagement/paymentQRcodeManagement/index",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920989",
+        "PRIVILEGE_ID": 1000001408,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "缴费二维码管理",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/formsManagement/paymentQRcodeManagement/index",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "统计中心",
+      "name": "扫码评价统计报表",
+      "menu_id": 1000003311,
+      "privilege_code": "600913",
+      "url": "/web-seo/pc/html/CodeScanningStatisticsReport/codeEvaluationView.html",
+      "level": 2,
+      "parent_menu_id": 6,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "600913",
+        "PRIVILEGE_ID": 1000003311,
+        "PARENT_PRIVILEGE_ID": 6,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "扫码评价统计报表",
+        "IMAGE_DIS": "",
+        "URL": "/web-seo/pc/html/CodeScanningStatisticsReport/codeEvaluationView.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "装修申报",
+      "menu_id": 1000000408,
+      "privilege_code": "100210",
+      "url": "/web-bus/pc/html/decorationManagement/index.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100210",
+        "PRIVILEGE_ID": 1000000408,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修申报",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/decorationManagement/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "配置管理",
+      "name": "角色清单导出",
+      "menu_id": 1000001409,
+      "privilege_code": "920990",
+      "url": "/un-pc-fronted/#/formsManagement/roleListExport/index",
+      "level": 2,
+      "parent_menu_id": 596,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "920990",
+        "PRIVILEGE_ID": 1000001409,
+        "PARENT_PRIVILEGE_ID": 596,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "角色清单导出",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/formsManagement/roleListExport/index",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "装修巡查清单",
+      "menu_id": 1000000410,
+      "privilege_code": "100212",
+      "url": "/web-bus/pc/html/inspectionList/index.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100212",
+        "PRIVILEGE_ID": 1000000410,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修巡查清单",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/inspectionList/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "装修整改通知函",
+      "menu_id": 1000000409,
+      "privilege_code": "100211",
+      "url": "/web-bus/pc/html/decorationNotice/index.html",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 300,
+      "source_fields": {
+        "APP_ID": 300,
+        "PRIVILEGE_CODE": "100211",
+        "PRIVILEGE_ID": 1000000409,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "装修整改通知函",
+        "IMAGE_DIS": "",
+        "URL": "/web-bus/pc/html/decorationNotice/index.html",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "访客登记记录",
+      "menu_id": 1000001108,
+      "privilege_code": "100902",
+      "url": "/un-pc-fronted/#/personAccess/registrationRecords/index",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100902",
+        "PRIVILEGE_ID": 1000001108,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "访客登记记录",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/personAccess/registrationRecords/index",
+        "LEVEL_ID": 2
+      }
+    },
+    {
+      "module": "客户服务",
+      "name": "访客通行记录",
+      "menu_id": 1000001109,
+      "privilege_code": "100903",
+      "url": "/un-pc-fronted/#/personAccess/transitRecords/index",
+      "level": 2,
+      "parent_menu_id": 1,
+      "app_id": 100,
+      "source_fields": {
+        "APP_ID": 100,
+        "PRIVILEGE_CODE": "100903",
+        "PRIVILEGE_ID": 1000001109,
+        "PARENT_PRIVILEGE_ID": 1,
+        "MENU_TARGET": "mainFrm",
+        "PRIVILEGE_NAME": "访客通行记录",
+        "IMAGE_DIS": "",
+        "URL": "/un-pc-fronted/#/personAccess/transitRecords/index",
+        "LEVEL_ID": 2
+      }
+    }
+  ],
+  "button_permission_definitions": [
+    {
+      "owner_menu_id": "1000000428",
+      "name": "新增",
+      "privilege_id": 1000000429,
+      "privilege_code": "920019001",
+      "parent_privilege_id": 1000000428,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationConfigure/addRenovationConfigure",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920019001",
+        "PRIVILEGE_ID": 1000000429,
+        "PARENT_PRIVILEGE_ID": 1000000428,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationConfigure/addRenovationConfigure"
+      }
+    },
+    {
+      "owner_menu_id": "1000000428",
+      "name": "修改",
+      "privilege_id": 1000000430,
+      "privilege_code": "920019002",
+      "parent_privilege_id": 1000000428,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationConfigure/updateRenovationConfigure",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920019002",
+        "PRIVILEGE_ID": 1000000430,
+        "PARENT_PRIVILEGE_ID": 1000000428,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationConfigure/updateRenovationConfigure"
+      }
+    },
+    {
+      "owner_menu_id": "1000000428",
+      "name": "删除",
+      "privilege_id": 1000000431,
+      "privilege_code": "920019003",
+      "parent_privilege_id": 1000000428,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationConfigure/deleteRenovationConfigureById",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920019003",
+        "PRIVILEGE_ID": 1000000431,
+        "PARENT_PRIVILEGE_ID": 1000000428,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationConfigure/deleteRenovationConfigureById"
+      }
+    },
+    {
+      "owner_menu_id": "1000000428",
+      "name": "查询",
+      "privilege_id": 1000000432,
+      "privilege_code": "920019004",
+      "parent_privilege_id": 1000000428,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationConfigure/queryRenovationConfigureList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920019004",
+        "PRIVILEGE_ID": 1000000432,
+        "PARENT_PRIVILEGE_ID": 1000000428,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationConfigure/queryRenovationConfigureList"
+      }
+    },
+    {
+      "owner_menu_id": "1000003618",
+      "name": "模板下载\r\n",
+      "privilege_id": 1000003619,
+      "privilege_code": "920013001",
+      "parent_privilege_id": 1000003618,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920013001",
+        "PRIVILEGE_ID": 1000003619,
+        "PARENT_PRIVILEGE_ID": 1000003618,
+        "PRIVILEGE_NAME": "模板下载\r\n",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000003618",
+      "name": "导入",
+      "privilege_id": 1000003620,
+      "privilege_code": "920013002",
+      "parent_privilege_id": 1000003618,
+      "privilege_type": "2",
+      "url": "/web-cust/deductionVoucher/addDeductionVoucherBatch",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920013002",
+        "PRIVILEGE_ID": 1000003620,
+        "PARENT_PRIVILEGE_ID": 1000003618,
+        "PRIVILEGE_NAME": "导入",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/deductionVoucher/addDeductionVoucherBatch"
+      }
+    },
+    {
+      "owner_menu_id": "1000003618",
+      "name": "导出",
+      "privilege_id": 1000003621,
+      "privilege_code": "920013003",
+      "parent_privilege_id": 1000003618,
+      "privilege_type": "2",
+      "url": "/web-cust/deductionVoucher/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920013003",
+        "PRIVILEGE_ID": 1000003621,
+        "PARENT_PRIVILEGE_ID": 1000003618,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/deductionVoucher/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000003618",
+      "name": "启用",
+      "privilege_id": 1000003622,
+      "privilege_code": "920013004",
+      "parent_privilege_id": 1000003618,
+      "privilege_type": "2",
+      "url": "/web-cust/deductionVoucher/updateStatusToValid",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920013004",
+        "PRIVILEGE_ID": 1000003622,
+        "PARENT_PRIVILEGE_ID": 1000003618,
+        "PRIVILEGE_NAME": "启用",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/deductionVoucher/updateStatusToValid"
+      }
+    },
+    {
+      "owner_menu_id": "1000003618",
+      "name": "查询",
+      "privilege_id": 1000002053,
+      "privilege_code": "920013006",
+      "parent_privilege_id": 1000003618,
+      "privilege_type": "2",
+      "url": "/web-cust/deductionVoucher/selectList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920013006",
+        "PRIVILEGE_ID": 1000002053,
+        "PARENT_PRIVILEGE_ID": 1000003618,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/deductionVoucher/selectList"
+      }
+    },
+    {
+      "owner_menu_id": "1000003614",
+      "name": "查询",
+      "privilege_id": 1000002092,
+      "privilege_code": "600904002",
+      "parent_privilege_id": 1000003614,
+      "privilege_type": "2",
+      "url": "/web-cust/activationForOrg.do",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600904002",
+        "PRIVILEGE_ID": 1000002092,
+        "PARENT_PRIVILEGE_ID": 1000003614,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/activationForOrg.do"
+      }
+    },
+    {
+      "owner_menu_id": "1000000621",
+      "name": "查询",
+      "privilege_id": 1000000619,
+      "privilege_code": "600700001",
+      "parent_privilege_id": 1000000621,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/staffPopularity/query",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600700001",
+        "PRIVILEGE_ID": 1000000619,
+        "PARENT_PRIVILEGE_ID": 1000000621,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/staffPopularity/query"
+      }
+    },
+    {
+      "owner_menu_id": "1000000621",
+      "name": "导出",
+      "privilege_id": 1000000620,
+      "privilege_code": "600700002",
+      "parent_privilege_id": 1000000621,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/staffPopularity/excelExprort",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600700002",
+        "PRIVILEGE_ID": 1000000620,
+        "PARENT_PRIVILEGE_ID": 1000000621,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/staffPopularity/excelExprort"
+      }
+    },
+    {
+      "owner_menu_id": "595",
+      "name": "查询",
+      "privilege_id": 1000002114,
+      "privilege_code": "700700001",
+      "parent_privilege_id": 595,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700700001",
+        "PRIVILEGE_ID": 1000002114,
+        "PARENT_PRIVILEGE_ID": 595,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "597",
+      "name": "新增",
+      "privilege_id": 598,
+      "privilege_code": "920001001",
+      "parent_privilege_id": 597,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920001001",
+        "PRIVILEGE_ID": 598,
+        "PARENT_PRIVILEGE_ID": 597,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "597",
+      "name": "修改",
+      "privilege_id": 599,
+      "privilege_code": "920001002",
+      "parent_privilege_id": 597,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920001002",
+        "PRIVILEGE_ID": 599,
+        "PARENT_PRIVILEGE_ID": 597,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "597",
+      "name": "删除",
+      "privilege_id": 600,
+      "privilege_code": "920001003",
+      "parent_privilege_id": 597,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920001003",
+        "PRIVILEGE_ID": 600,
+        "PARENT_PRIVILEGE_ID": 597,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "全市均价",
+      "privilege_id": 56,
+      "privilege_code": "400700002",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700002",
+        "PRIVILEGE_ID": 56,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "全市均价",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "房产交易新增",
+      "privilege_id": 55,
+      "privilege_code": "400700003",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700003",
+        "PRIVILEGE_ID": 55,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "房产交易新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "房产交易删除",
+      "privilege_id": 57,
+      "privilege_code": "400700004",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700004",
+        "PRIVILEGE_ID": 57,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "房产交易删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "全市均价新增",
+      "privilege_id": 61,
+      "privilege_code": "400700005",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700005",
+        "PRIVILEGE_ID": 61,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "全市均价新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "全市均价删除",
+      "privilege_id": 62,
+      "privilege_code": "400700006",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700006",
+        "PRIVILEGE_ID": 62,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "全市均价删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "房产交易修改",
+      "privilege_id": 63,
+      "privilege_code": "400700007",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700007",
+        "PRIVILEGE_ID": 63,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "房产交易修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "导出",
+      "privilege_id": 65,
+      "privilege_code": "400700008",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700008",
+        "PRIVILEGE_ID": 65,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "116",
+      "name": "查询",
+      "privilege_id": 1000002065,
+      "privilege_code": "400700009",
+      "parent_privilege_id": 116,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/qry_house_sell_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400700009",
+        "PRIVILEGE_ID": 1000002065,
+        "PARENT_PRIVILEGE_ID": 116,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/qry_house_sell_list"
+      }
+    },
+    {
+      "owner_menu_id": "117",
+      "name": "使用人查看",
+      "privilege_id": 4922,
+      "privilege_code": "300002002",
+      "parent_privilege_id": 117,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300002002",
+        "PRIVILEGE_ID": 4922,
+        "PARENT_PRIVILEGE_ID": 117,
+        "PRIVILEGE_NAME": "使用人查看",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "117",
+      "name": "查询",
+      "privilege_id": 1000002042,
+      "privilege_code": "300002003",
+      "parent_privilege_id": 117,
+      "privilege_type": "2",
+      "url": "/web-cust/mobile/queryhourselist",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300002003",
+        "PRIVILEGE_ID": 1000002042,
+        "PARENT_PRIVILEGE_ID": 117,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/mobile/queryhourselist"
+      }
+    },
+    {
+      "owner_menu_id": "635",
+      "name": "查询",
+      "privilege_id": 1000002086,
+      "privilege_code": "600600003",
+      "parent_privilege_id": 635,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/questionnaire/queryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600600003",
+        "PRIVILEGE_ID": 1000002086,
+        "PARENT_PRIVILEGE_ID": 635,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/questionnaire/queryList"
+      }
+    },
+    {
+      "owner_menu_id": "635",
+      "name": "导出",
+      "privilege_id": 636,
+      "privilege_code": "600600100",
+      "parent_privilege_id": 635,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/questionnaire/exprortQuestionnaireResult",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600600100",
+        "PRIVILEGE_ID": 636,
+        "PARENT_PRIVILEGE_ID": 635,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/questionnaire/exprortQuestionnaireResult"
+      }
+    },
+    {
+      "owner_menu_id": "635",
+      "name": "问卷题目答案导出",
+      "privilege_id": 645,
+      "privilege_code": "600600200",
+      "parent_privilege_id": 635,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600600200",
+        "PRIVILEGE_ID": 645,
+        "PARENT_PRIVILEGE_ID": 635,
+        "PRIVILEGE_NAME": "问卷题目答案导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "635",
+      "name": "导出",
+      "privilege_id": 723,
+      "privilege_code": "600600300",
+      "parent_privilege_id": 635,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600600300",
+        "PRIVILEGE_ID": 723,
+        "PARENT_PRIVILEGE_ID": 635,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "635",
+      "name": "导出",
+      "privilege_id": 724,
+      "privilege_code": "600600400",
+      "parent_privilege_id": 635,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600600400",
+        "PRIVILEGE_ID": 724,
+        "PARENT_PRIVILEGE_ID": 635,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "95",
+      "name": "查看",
+      "privilege_id": 552,
+      "privilege_code": "101000012",
+      "parent_privilege_id": 95,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "101000012",
+        "PRIVILEGE_ID": 552,
+        "PARENT_PRIVILEGE_ID": 95,
+        "PRIVILEGE_NAME": "查看",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "95",
+      "name": "查询",
+      "privilege_id": 1000002036,
+      "privilege_code": "101000019",
+      "parent_privilege_id": 95,
+      "privilege_type": "2",
+      "url": "/web-odm/groupBusiness/queryGroupBusinessList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "101000019",
+        "PRIVILEGE_ID": 1000002036,
+        "PARENT_PRIVILEGE_ID": 95,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/groupBusiness/queryGroupBusinessList"
+      }
+    },
+    {
+      "owner_menu_id": "12",
+      "name": "查询",
+      "privilege_id": 602,
+      "privilege_code": "100105001",
+      "parent_privilege_id": 12,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/queryReleaseBarInfoList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100105001",
+        "PRIVILEGE_ID": 602,
+        "PARENT_PRIVILEGE_ID": 12,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/queryReleaseBarInfoList"
+      }
+    },
+    {
+      "owner_menu_id": "12",
+      "name": "打印",
+      "privilege_id": 1000002210,
+      "privilege_code": "100105006",
+      "parent_privilege_id": 12,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100105006",
+        "PRIVILEGE_ID": 1000002210,
+        "PARENT_PRIVILEGE_ID": 12,
+        "PRIVILEGE_NAME": "打印",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "13",
+      "name": "查询",
+      "privilege_id": 1000002016,
+      "privilege_code": "100106001",
+      "parent_privilege_id": 13,
+      "privilege_type": "2",
+      "url": "/web-cust/visitorBespeakPC/queryVisitor2StaffPCDemo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100106001",
+        "PRIVILEGE_ID": 1000002016,
+        "PARENT_PRIVILEGE_ID": 13,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/visitorBespeakPC/queryVisitor2StaffPCDemo"
+      }
+    },
+    {
+      "owner_menu_id": "13",
+      "name": "导出",
+      "privilege_id": 1000001912,
+      "privilege_code": "100106972",
+      "parent_privilege_id": 13,
+      "privilege_type": "2",
+      "url": "/web-cust/visitorBespeakExt/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100106972",
+        "PRIVILEGE_ID": 1000001912,
+        "PARENT_PRIVILEGE_ID": 13,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/visitorBespeakExt/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000001308",
+      "name": "查看手机号",
+      "privilege_id": 1000001508,
+      "privilege_code": "500005001",
+      "parent_privilege_id": 1000001308,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500005001",
+        "PRIVILEGE_ID": 1000001508,
+        "PARENT_PRIVILEGE_ID": 1000001308,
+        "PRIVILEGE_NAME": "查看手机号",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001308",
+      "name": "催缴记录导出",
+      "privilege_id": 1000001509,
+      "privilege_code": "500005002",
+      "parent_privilege_id": 1000001308,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500005002",
+        "PRIVILEGE_ID": 1000001509,
+        "PARENT_PRIVILEGE_ID": 1000001308,
+        "PRIVILEGE_NAME": "催缴记录导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001308",
+      "name": "导入",
+      "privilege_id": 1000001708,
+      "privilege_code": "500005003",
+      "parent_privilege_id": 1000001308,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500005003",
+        "PRIVILEGE_ID": 1000001708,
+        "PARENT_PRIVILEGE_ID": 1000001308,
+        "PRIVILEGE_NAME": "导入",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "查询",
+      "privilege_id": 70,
+      "privilege_code": "700100001",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "/web-sys/empee/queryEmpeeBaseInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100001",
+        "PRIVILEGE_ID": 70,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/empee/queryEmpeeBaseInfo"
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "新增",
+      "privilege_id": 71,
+      "privilege_code": "700100002",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100002",
+        "PRIVILEGE_ID": 71,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "删除",
+      "privilege_id": 585,
+      "privilege_code": "700100003",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100003",
+        "PRIVILEGE_ID": 585,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "修改",
+      "privilege_id": 586,
+      "privilege_code": "700100004",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100004",
+        "PRIVILEGE_ID": 586,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "冻结",
+      "privilege_id": 587,
+      "privilege_code": "700100005",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100005",
+        "PRIVILEGE_ID": 587,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "冻结",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "解冻",
+      "privilege_id": 588,
+      "privilege_code": "700100006",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100006",
+        "PRIVILEGE_ID": 588,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "解冻",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "重置密码",
+      "privilege_id": 589,
+      "privilege_code": "700100007",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100007",
+        "PRIVILEGE_ID": 589,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "重置密码",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "导出",
+      "privilege_id": 631,
+      "privilege_code": "700100008",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "/web-sys/empee/empeeExprort",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100008",
+        "PRIVILEGE_ID": 631,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/empee/empeeExprort"
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "工作交接",
+      "privilege_id": 1000002414,
+      "privilege_code": "700100009",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100009",
+        "PRIVILEGE_ID": 1000002414,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "工作交接",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "交接记录",
+      "privilege_id": 648,
+      "privilege_code": "700100010",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100010",
+        "PRIVILEGE_ID": 648,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "交接记录",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "交接记录导出",
+      "privilege_id": 1000002421,
+      "privilege_code": "700100011",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100011",
+        "PRIVILEGE_ID": 1000002421,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "交接记录导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "14",
+      "name": "提前回岗",
+      "privilege_id": 1000002422,
+      "privilege_code": "700100012",
+      "parent_privilege_id": 14,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "700100012",
+        "PRIVILEGE_ID": 1000002422,
+        "PARENT_PRIVILEGE_ID": 14,
+        "PRIVILEGE_NAME": "提前回岗",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000001109",
+      "name": "查看手机号",
+      "privilege_id": 1000001415,
+      "privilege_code": "100903001",
+      "parent_privilege_id": 1000001109,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100903001",
+        "PRIVILEGE_ID": 1000001415,
+        "PARENT_PRIVILEGE_ID": 1000001109,
+        "PRIVILEGE_NAME": "查看手机号",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001109",
+      "name": "导出",
+      "privilege_id": 1000001416,
+      "privilege_code": "100903002",
+      "parent_privilege_id": 1000001109,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100903002",
+        "PRIVILEGE_ID": 1000001416,
+        "PARENT_PRIVILEGE_ID": 1000001109,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "15",
+      "name": "批量分配角色",
+      "privilege_id": 593,
+      "privilege_code": "700200004",
+      "parent_privilege_id": 15,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700200004",
+        "PRIVILEGE_ID": 593,
+        "PARENT_PRIVILEGE_ID": 15,
+        "PRIVILEGE_NAME": "批量分配角色",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "15",
+      "name": "查询",
+      "privilege_id": 1000002106,
+      "privilege_code": "700200005",
+      "parent_privilege_id": 15,
+      "privilege_type": "2",
+      "url": "/web-sys/role/queryRoleInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700200005",
+        "PRIVILEGE_ID": 1000002106,
+        "PARENT_PRIVILEGE_ID": 15,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/role/queryRoleInfo"
+      }
+    },
+    {
+      "owner_menu_id": "6321",
+      "name": "查询",
+      "privilege_id": 1000002023,
+      "privilege_code": "100129001",
+      "parent_privilege_id": 6321,
+      "privilege_type": "2",
+      "url": "/web-bus/EvaluationRecordsController/initialization",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100129001",
+        "PRIVILEGE_ID": 1000002023,
+        "PARENT_PRIVILEGE_ID": 6321,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/EvaluationRecordsController/initialization"
+      }
+    },
+    {
+      "owner_menu_id": "6321",
+      "name": "导出",
+      "privilege_id": 1000002024,
+      "privilege_code": "100129002",
+      "parent_privilege_id": 6321,
+      "privilege_type": "2",
+      "url": "/web-bus/EvaluationRecordsController/exportInitialization",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100129002",
+        "PRIVILEGE_ID": 1000002024,
+        "PARENT_PRIVILEGE_ID": 6321,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/EvaluationRecordsController/exportInitialization"
+      }
+    },
+    {
+      "owner_menu_id": "19",
+      "name": "查询",
+      "privilege_id": 1000002111,
+      "privilege_code": "700600004",
+      "parent_privilege_id": 19,
+      "privilege_type": "2",
+      "url": "/web-sys/center/queryServiceCenterList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700600004",
+        "PRIVILEGE_ID": 1000002111,
+        "PARENT_PRIVILEGE_ID": 19,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/center/queryServiceCenterList"
+      }
+    },
+    {
+      "owner_menu_id": "19",
+      "name": "编辑FMC报修标志",
+      "privilege_id": 1000000104,
+      "privilege_code": "700600200",
+      "parent_privilege_id": 19,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "700600200",
+        "PRIVILEGE_ID": 1000000104,
+        "PARENT_PRIVILEGE_ID": 19,
+        "PRIVILEGE_NAME": "编辑FMC报修标志",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "19",
+      "name": "编辑物业CRM工单标志",
+      "privilege_id": 1000000040,
+      "privilege_code": "700600300",
+      "parent_privilege_id": 19,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "700600300",
+        "PRIVILEGE_ID": 1000000040,
+        "PARENT_PRIVILEGE_ID": 19,
+        "PRIVILEGE_NAME": "编辑物业CRM工单标志",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000410",
+      "name": "列设置",
+      "privilege_id": 1000000425,
+      "privilege_code": "100212001",
+      "parent_privilege_id": 1000000410,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100212001",
+        "PRIVILEGE_ID": 1000000425,
+        "PARENT_PRIVILEGE_ID": 1000000410,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "1000000410",
+      "name": "导出",
+      "privilege_id": 1000000426,
+      "privilege_code": "100212002",
+      "parent_privilege_id": 1000000410,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationPatrol/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100212002",
+        "PRIVILEGE_ID": 1000000426,
+        "PARENT_PRIVILEGE_ID": 1000000410,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationPatrol/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000000410",
+      "name": "查询",
+      "privilege_id": 1000000427,
+      "privilege_code": "100212003",
+      "parent_privilege_id": 1000000410,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationPatrol/queryRenovationPatrolList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100212003",
+        "PRIVILEGE_ID": 1000000427,
+        "PARENT_PRIVILEGE_ID": 1000000410,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationPatrol/queryRenovationPatrolList"
+      }
+    },
+    {
+      "owner_menu_id": "1000002512",
+      "name": "导出",
+      "privilege_id": 1000002812,
+      "privilege_code": "920988003",
+      "parent_privilege_id": 1000002512,
+      "privilege_type": "2",
+      "url": "/web-bus/CustElevatorManageController/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920988003",
+        "PRIVILEGE_ID": 1000002812,
+        "PARENT_PRIVILEGE_ID": 1000002512,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/CustElevatorManageController/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000002512",
+      "name": "新增",
+      "privilege_id": 1000002813,
+      "privilege_code": "920988004",
+      "parent_privilege_id": 1000002512,
+      "privilege_type": "2",
+      "url": "/web-bus/CustElevatorManageController/addCustElevatorManage",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920988004",
+        "PRIVILEGE_ID": 1000002813,
+        "PARENT_PRIVILEGE_ID": 1000002512,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/CustElevatorManageController/addCustElevatorManage"
+      }
+    },
+    {
+      "owner_menu_id": "1000002512",
+      "name": "批量新增",
+      "privilege_id": 1000002814,
+      "privilege_code": "920988005",
+      "parent_privilege_id": 1000002512,
+      "privilege_type": "2",
+      "url": "/web-bus/CustElevatorManageController/addCustElevatorManageBatch",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920988005",
+        "PRIVILEGE_ID": 1000002814,
+        "PARENT_PRIVILEGE_ID": 1000002512,
+        "PRIVILEGE_NAME": "批量新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/CustElevatorManageController/addCustElevatorManageBatch"
+      }
+    },
+    {
+      "owner_menu_id": "1000002512",
+      "name": "查询",
+      "privilege_id": 1000002052,
+      "privilege_code": "920988006",
+      "parent_privilege_id": 1000002512,
+      "privilege_type": "2",
+      "url": "/web-bus/CustElevatorManageController/queryCustElevatorManage",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920988006",
+        "PRIVILEGE_ID": 1000002052,
+        "PARENT_PRIVILEGE_ID": 1000002512,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/CustElevatorManageController/queryCustElevatorManage"
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "新增",
+      "privilege_id": 2122,
+      "privilege_code": "400120001",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120001",
+        "PRIVILEGE_ID": 2122,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "修改",
+      "privilege_id": 2123,
+      "privilege_code": "400120002",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120002",
+        "PRIVILEGE_ID": 2123,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "删除",
+      "privilege_id": 2221,
+      "privilege_code": "400120003",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120003",
+        "PRIVILEGE_ID": 2221,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "发布",
+      "privilege_id": 2125,
+      "privilege_code": "400120004",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120004",
+        "PRIVILEGE_ID": 2125,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "发布",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "下架",
+      "privilege_id": 2126,
+      "privilege_code": "400120005",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120005",
+        "PRIVILEGE_ID": 2126,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "下架",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "置顶",
+      "privilege_id": 2127,
+      "privilege_code": "400120006",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120006",
+        "PRIVILEGE_ID": 2127,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "取消置顶",
+      "privilege_id": 3121,
+      "privilege_code": "400120007",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120007",
+        "PRIVILEGE_ID": 3121,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "取消置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "活动评论置顶",
+      "privilege_id": 1826,
+      "privilege_code": "400120110",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120110",
+        "PRIVILEGE_ID": 1826,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "活动评论置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "活动评论取消置顶",
+      "privilege_id": 1827,
+      "privilege_code": "400120111",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120111",
+        "PRIVILEGE_ID": 1827,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "活动评论取消置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "活动评论删除",
+      "privilege_id": 1828,
+      "privilege_code": "400120112",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120112",
+        "PRIVILEGE_ID": 1828,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "活动评论删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "活动评论导出",
+      "privilege_id": 1829,
+      "privilege_code": "400120113",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120113",
+        "PRIVILEGE_ID": 1829,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "活动评论导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "图片下载",
+      "privilege_id": 3021,
+      "privilege_code": "400120114",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120114",
+        "PRIVILEGE_ID": 3021,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "图片下载",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "导出",
+      "privilege_id": 4621,
+      "privilege_code": "400120115",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/exprort_community_activity",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120115",
+        "PRIVILEGE_ID": 4621,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/exprort_community_activity"
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "报名清单",
+      "privilege_id": 4821,
+      "privilege_code": "400120116",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120116",
+        "PRIVILEGE_ID": 4821,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "报名清单",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "查询",
+      "privilege_id": 1000002072,
+      "privilege_code": "400120124",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/qry_community_activity_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120124",
+        "PRIVILEGE_ID": 1000002072,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/qry_community_activity_list"
+      }
+    },
+    {
+      "owner_menu_id": "2121",
+      "name": "报名清单导出",
+      "privilege_id": 1000000012,
+      "privilege_code": "400120560",
+      "parent_privilege_id": 2121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400120560",
+        "PRIVILEGE_ID": 1000000012,
+        "PARENT_PRIVILEGE_ID": 2121,
+        "PRIVILEGE_NAME": "报名清单导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000015",
+      "name": "查询",
+      "privilege_id": 1000002021,
+      "privilege_code": "100113004",
+      "parent_privilege_id": 1000000015,
+      "privilege_type": "2",
+      "url": "/web-cust/commentResultController/queryScanEvaluateInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100113004",
+        "PRIVILEGE_ID": 1000002021,
+        "PARENT_PRIVILEGE_ID": 1000000015,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/commentResultController/queryScanEvaluateInfo"
+      }
+    },
+    {
+      "owner_menu_id": "1000000015",
+      "name": "导出",
+      "privilege_id": 1000000016,
+      "privilege_code": "100113100",
+      "parent_privilege_id": 1000000015,
+      "privilege_type": "2",
+      "url": "/web-cust/commentResultController/exportScanEvaluateInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100113100",
+        "PRIVILEGE_ID": 1000000016,
+        "PARENT_PRIVILEGE_ID": 1000000015,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/commentResultController/exportScanEvaluateInfo"
+      }
+    },
+    {
+      "owner_menu_id": "1000000013",
+      "name": "导出",
+      "privilege_id": 1000000014,
+      "privilege_code": "100112001",
+      "parent_privilege_id": 1000000013,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100112001",
+        "PRIVILEGE_ID": 1000000014,
+        "PARENT_PRIVILEGE_ID": 1000000013,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000013",
+      "name": "查询",
+      "privilege_id": 1000002020,
+      "privilege_code": "100112002",
+      "parent_privilege_id": 1000000013,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/invoiceSalesInfo/queryInvoiceSalesInfoList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100112002",
+        "PRIVILEGE_ID": 1000002020,
+        "PARENT_PRIVILEGE_ID": 1000000013,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/invoiceSalesInfo/queryInvoiceSalesInfoList"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "提交oa审核",
+      "privilege_id": 1000001310,
+      "privilege_code": "100267001",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/vacantRoomApplyByPC/oAExamine",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267001",
+        "PRIVILEGE_ID": 1000001310,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "提交oa审核",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/vacantRoomApplyByPC/oAExamine"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "空置房清单",
+      "privilege_id": 1000001318,
+      "privilege_code": "100267002",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/html/vacantRoomApply/vacantRoomApplyOA.html",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267002",
+        "PRIVILEGE_ID": 1000001318,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "空置房清单",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/html/vacantRoomApply/vacantRoomApplyOA.html"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "取消空置",
+      "privilege_id": 1000001319,
+      "privilege_code": "100267003",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/vacantRoomApplyByPC/cancelVacantRoomApply",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267003",
+        "PRIVILEGE_ID": 1000001319,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "取消空置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/vacantRoomApplyByPC/cancelVacantRoomApply"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "查看详情",
+      "privilege_id": 1000001320,
+      "privilege_code": "100267004",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267004",
+        "PRIVILEGE_ID": 1000001320,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "查看详情",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyInfo"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "申请查询",
+      "privilege_id": 1000002031,
+      "privilege_code": "100267006",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267006",
+        "PRIVILEGE_ID": 1000002031,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "申请查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyList"
+      }
+    },
+    {
+      "owner_menu_id": "1000000810",
+      "name": "清单查询",
+      "privilege_id": 1000002032,
+      "privilege_code": "100267007",
+      "parent_privilege_id": 1000000810,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyListByOA",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100267007",
+        "PRIVILEGE_ID": 1000002032,
+        "PARENT_PRIVILEGE_ID": 1000000810,
+        "PRIVILEGE_NAME": "清单查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/vacantRoomApplyByPC/getVacantRoomApplyListByOA"
+      }
+    },
+    {
+      "owner_menu_id": "1000001108",
+      "name": "查看手机号",
+      "privilege_id": 1000001412,
+      "privilege_code": "100902001",
+      "parent_privilege_id": 1000001108,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100902001",
+        "PRIVILEGE_ID": 1000001412,
+        "PARENT_PRIVILEGE_ID": 1000001108,
+        "PRIVILEGE_NAME": "查看手机号",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001108",
+      "name": "导出",
+      "privilege_id": 1000001413,
+      "privilege_code": "100902002",
+      "parent_privilege_id": 1000001108,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100902002",
+        "PRIVILEGE_ID": 1000001413,
+        "PARENT_PRIVILEGE_ID": 1000001108,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001108",
+      "name": "查看图片",
+      "privilege_id": 1000001414,
+      "privilege_code": "100902003",
+      "parent_privilege_id": 1000001108,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100902003",
+        "PRIVILEGE_ID": 1000001414,
+        "PARENT_PRIVILEGE_ID": 1000001108,
+        "PRIVILEGE_NAME": "查看图片",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "导出",
+      "privilege_id": 1000000027,
+      "privilege_code": "100114007",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/discussExport/excelExprort",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114007",
+        "PRIVILEGE_ID": 1000000027,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/discussExport/excelExprort"
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "评论",
+      "privilege_id": 1000000028,
+      "privilege_code": "100114008",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114008",
+        "PRIVILEGE_ID": 1000000028,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "评论",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "投票结果",
+      "privilege_id": 1000000029,
+      "privilege_code": "100114009",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114009",
+        "PRIVILEGE_ID": 1000000029,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "投票结果",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "置顶",
+      "privilege_id": 1000000030,
+      "privilege_code": "100114010",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114010",
+        "PRIVILEGE_ID": 1000000030,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "置顶",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "二维码下载",
+      "privilege_id": 1000000060,
+      "privilege_code": "100114011",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114011",
+        "PRIVILEGE_ID": 1000000060,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "二维码下载",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000019",
+      "name": "查询",
+      "privilege_id": 1000002074,
+      "privilege_code": "100114012",
+      "parent_privilege_id": 1000000019,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/discuss/queryDiscussList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100114012",
+        "PRIVILEGE_ID": 1000002074,
+        "PARENT_PRIVILEGE_ID": 1000000019,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/discuss/queryDiscussList"
+      }
+    },
+    {
+      "owner_menu_id": "121",
+      "name": "查询",
+      "privilege_id": 1000002076,
+      "privilege_code": "500001001",
+      "parent_privilege_id": 121,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/qry_cust_basic_information",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500001001",
+        "PRIVILEGE_ID": 1000002076,
+        "PARENT_PRIVILEGE_ID": 121,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/qry_cust_basic_information"
+      }
+    },
+    {
+      "owner_menu_id": "1221",
+      "name": "查询",
+      "privilege_id": 1000002018,
+      "privilege_code": "100110004",
+      "parent_privilege_id": 1221,
+      "privilege_type": "2",
+      "url": "/web-cust/certificationApplicationPC/QueryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100110004",
+        "PRIVILEGE_ID": 1000002018,
+        "PARENT_PRIVILEGE_ID": 1221,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/certificationApplicationPC/QueryList"
+      }
+    },
+    {
+      "owner_menu_id": "8",
+      "name": "查看",
+      "privilege_id": 554,
+      "privilege_code": "100101001",
+      "parent_privilege_id": 8,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workevent/workEventQueryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100101001",
+        "PRIVILEGE_ID": 554,
+        "PARENT_PRIVILEGE_ID": 8,
+        "PRIVILEGE_NAME": "查看",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workevent/workEventQueryList"
+      }
+    },
+    {
+      "owner_menu_id": "8",
+      "name": "新增",
+      "privilege_id": 555,
+      "privilege_code": "100101002",
+      "parent_privilege_id": 8,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100101002",
+        "PRIVILEGE_ID": 555,
+        "PARENT_PRIVILEGE_ID": 8,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "8",
+      "name": "导出",
+      "privilege_id": 633,
+      "privilege_code": "100101003",
+      "parent_privilege_id": 8,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workExcelExport/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100101003",
+        "PRIVILEGE_ID": 633,
+        "PARENT_PRIVILEGE_ID": 8,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workExcelExport/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "8",
+      "name": "列设置",
+      "privilege_id": 1004,
+      "privilege_code": "100101005",
+      "parent_privilege_id": 8,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100101005",
+        "PRIVILEGE_ID": 1004,
+        "PARENT_PRIVILEGE_ID": 8,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "8",
+      "name": "删除",
+      "privilege_id": 11123,
+      "privilege_code": "100101006",
+      "parent_privilege_id": 8,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/WorkEventHandle/deleteWork",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100101006",
+        "PRIVILEGE_ID": 11123,
+        "PARENT_PRIVILEGE_ID": 8,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/WorkEventHandle/deleteWork"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "删除",
+      "privilege_id": 268,
+      "privilege_code": "400112001",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/procla/delProcla",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112001",
+        "PRIVILEGE_ID": 268,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/procla/delProcla"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "修改",
+      "privilege_id": 269,
+      "privilege_code": "400112002",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112002",
+        "PRIVILEGE_ID": 269,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "新增",
+      "privilege_id": 270,
+      "privilege_code": "400112003",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/procla/addProcla",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112003",
+        "PRIVILEGE_ID": 270,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/procla/addProcla"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "评论",
+      "privilege_id": 11000,
+      "privilege_code": "400112004",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112004",
+        "PRIVILEGE_ID": 11000,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "评论",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "导出",
+      "privilege_id": 1000003651,
+      "privilege_code": "400112005",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/procla/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112005",
+        "PRIVILEGE_ID": 1000003651,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/procla/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "60",
+      "name": "查询",
+      "privilege_id": 1000002058,
+      "privilege_code": "400112006",
+      "parent_privilege_id": 60,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/procla/pcList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400112006",
+        "PRIVILEGE_ID": 1000002058,
+        "PARENT_PRIVILEGE_ID": 60,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/procla/pcList"
+      }
+    },
+    {
+      "owner_menu_id": "5821",
+      "name": "工作计划导出列表1",
+      "privilege_id": 5822,
+      "privilege_code": "930900001",
+      "parent_privilege_id": 5821,
+      "privilege_type": "2",
+      "url": "/web-seo/workPlanStatement/efficiencyView1exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930900001",
+        "PRIVILEGE_ID": 5822,
+        "PARENT_PRIVILEGE_ID": 5821,
+        "PRIVILEGE_NAME": "工作计划导出列表1",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/workPlanStatement/efficiencyView1exportData"
+      }
+    },
+    {
+      "owner_menu_id": "5821",
+      "name": "工作计划导出列表2",
+      "privilege_id": 5823,
+      "privilege_code": "930900002",
+      "parent_privilege_id": 5821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930900002",
+        "PRIVILEGE_ID": 5823,
+        "PARENT_PRIVILEGE_ID": 5821,
+        "PRIVILEGE_NAME": "工作计划导出列表2",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5821",
+      "name": "工作计划导出列表3",
+      "privilege_id": 5824,
+      "privilege_code": "930900003",
+      "parent_privilege_id": 5821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930900003",
+        "PRIVILEGE_ID": 5824,
+        "PARENT_PRIVILEGE_ID": 5821,
+        "PRIVILEGE_NAME": "工作计划导出列表3",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5821",
+      "name": "工作计划导出列表4",
+      "privilege_id": 5825,
+      "privilege_code": "930900004",
+      "parent_privilege_id": 5821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930900004",
+        "PRIVILEGE_ID": 5825,
+        "PARENT_PRIVILEGE_ID": 5821,
+        "PRIVILEGE_NAME": "工作计划导出列表4",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5821",
+      "name": "查询",
+      "privilege_id": 1000002103,
+      "privilege_code": "930900005",
+      "parent_privilege_id": 5821,
+      "privilege_type": "2",
+      "url": "/web-seo/workPlanStatement/efficiencyViewQuery1",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930900005",
+        "PRIVILEGE_ID": 1000002103,
+        "PARENT_PRIVILEGE_ID": 5821,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/workPlanStatement/efficiencyViewQuery1"
+      }
+    },
+    {
+      "owner_menu_id": "605",
+      "name": "查询",
+      "privilege_id": 1000002082,
+      "privilege_code": "600300002",
+      "parent_privilege_id": 605,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600300002",
+        "PRIVILEGE_ID": 1000002082,
+        "PARENT_PRIVILEGE_ID": 605,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "605",
+      "name": "导出",
+      "privilege_id": 606,
+      "privilege_code": "600300100",
+      "parent_privilege_id": 605,
+      "privilege_type": "2",
+      "url": "/web-seo/useInfoController/export",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600300100",
+        "PRIVILEGE_ID": 606,
+        "PARENT_PRIVILEGE_ID": 605,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/useInfoController/export"
+      }
+    },
+    {
+      "owner_menu_id": "608",
+      "name": "导出",
+      "privilege_id": 610,
+      "privilege_code": "600400001",
+      "parent_privilege_id": 608,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/exportDataStaff",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600400001",
+        "PRIVILEGE_ID": 610,
+        "PARENT_PRIVILEGE_ID": 608,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/exportDataStaff"
+      }
+    },
+    {
+      "owner_menu_id": "608",
+      "name": "查询",
+      "privilege_id": 1000002083,
+      "privilege_code": "600400002",
+      "parent_privilege_id": 608,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/queryStaffLoginList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600400002",
+        "PRIVILEGE_ID": 1000002083,
+        "PARENT_PRIVILEGE_ID": 608,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/queryStaffLoginList"
+      }
+    },
+    {
+      "owner_menu_id": "609",
+      "name": "导出",
+      "privilege_id": 614,
+      "privilege_code": "600500001",
+      "parent_privilege_id": 609,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/exprortEsmpLoginCustList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600500001",
+        "PRIVILEGE_ID": 614,
+        "PARENT_PRIVILEGE_ID": 609,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/exprortEsmpLoginCustList"
+      }
+    },
+    {
+      "owner_menu_id": "609",
+      "name": "查询",
+      "privilege_id": 1000002084,
+      "privilege_code": "600500002",
+      "parent_privilege_id": 609,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/queryEsmpLoginCustList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600500002",
+        "PRIVILEGE_ID": 1000002084,
+        "PARENT_PRIVILEGE_ID": 609,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/queryEsmpLoginCustList"
+      }
+    },
+    {
+      "owner_menu_id": "22",
+      "name": "列设置",
+      "privilege_id": 701,
+      "privilege_code": "200100002",
+      "parent_privilege_id": 22,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200100002",
+        "PRIVILEGE_ID": 701,
+        "PARENT_PRIVILEGE_ID": 22,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "22",
+      "name": "导出",
+      "privilege_id": 1001,
+      "privilege_code": "200100003",
+      "parent_privilege_id": 22,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workExcelExport/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200100003",
+        "PRIVILEGE_ID": 1001,
+        "PARENT_PRIVILEGE_ID": 22,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workExcelExport/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "22",
+      "name": "删除",
+      "privilege_id": 1002003,
+      "privilege_code": "200100005",
+      "parent_privilege_id": 22,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/WorkEventHandle/deleteWork",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200100005",
+        "PRIVILEGE_ID": 1002003,
+        "PARENT_PRIVILEGE_ID": 22,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/WorkEventHandle/deleteWork"
+      }
+    },
+    {
+      "owner_menu_id": "22",
+      "name": "查询",
+      "privilege_id": 1000002037,
+      "privilege_code": "200100006",
+      "parent_privilege_id": 22,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workevent/workEventQueryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200100006",
+        "PRIVILEGE_ID": 1000002037,
+        "PARENT_PRIVILEGE_ID": 22,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workevent/workEventQueryList"
+      }
+    },
+    {
+      "owner_menu_id": "23",
+      "name": "查询",
+      "privilege_id": 1000002038,
+      "privilege_code": "200200001",
+      "parent_privilege_id": 23,
+      "privilege_type": "2",
+      "url": "/web-cust/stewardConfig/queryStewardConfigList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200200001",
+        "PRIVILEGE_ID": 1000002038,
+        "PARENT_PRIVILEGE_ID": 23,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/stewardConfig/queryStewardConfigList"
+      }
+    },
+    {
+      "owner_menu_id": "23",
+      "name": "新增",
+      "privilege_id": 1000002039,
+      "privilege_code": "200200002",
+      "parent_privilege_id": 23,
+      "privilege_type": "2",
+      "url": "/web-cust/stewardConfig/addStewardConfigList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200200002",
+        "PRIVILEGE_ID": 1000002039,
+        "PARENT_PRIVILEGE_ID": 23,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/stewardConfig/addStewardConfigList"
+      }
+    },
+    {
+      "owner_menu_id": "23",
+      "name": "删除",
+      "privilege_id": 1000002040,
+      "privilege_code": "200200003",
+      "parent_privilege_id": 23,
+      "privilege_type": "2",
+      "url": "/web-cust/stewardConfig/deleteStewardConfigList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "200200003",
+        "PRIVILEGE_ID": 1000002040,
+        "PARENT_PRIVILEGE_ID": 23,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/stewardConfig/deleteStewardConfigList"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "导出",
+      "privilege_id": 1000000411,
+      "privilege_code": "100210001",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationDeclare/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210001",
+        "PRIVILEGE_ID": 1000000411,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationDeclare/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "列设置",
+      "privilege_id": 1000000413,
+      "privilege_code": "100210002",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210002",
+        "PRIVILEGE_ID": 1000000413,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "新增",
+      "privilege_id": 1000000414,
+      "privilege_code": "100210003",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationDeclare/addRenovationDeclare",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210003",
+        "PRIVILEGE_ID": 1000000414,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationDeclare/addRenovationDeclare"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "修改",
+      "privilege_id": 1000000415,
+      "privilege_code": "100210004",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationDeclare/updateRenovationDeclare",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210004",
+        "PRIVILEGE_ID": 1000000415,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationDeclare/updateRenovationDeclare"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "查询",
+      "privilege_id": 1000000416,
+      "privilege_code": "100210005",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationDeclare/queryRenovationDeclareList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210005",
+        "PRIVILEGE_ID": 1000000416,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationDeclare/queryRenovationDeclareList"
+      }
+    },
+    {
+      "owner_menu_id": "1000000408",
+      "name": "删除",
+      "privilege_id": 1000000418,
+      "privilege_code": "100210006",
+      "parent_privilege_id": 1000000408,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationDeclare/deleteDeclareInfoById",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100210006",
+        "PRIVILEGE_ID": 1000000418,
+        "PARENT_PRIVILEGE_ID": 1000000408,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationDeclare/deleteDeclareInfoById"
+      }
+    },
+    {
+      "owner_menu_id": "1000000009",
+      "name": "查询",
+      "privilege_id": 1000002013,
+      "privilege_code": "100103005",
+      "parent_privilege_id": 1000000009,
+      "privilege_type": "2",
+      "url": "/web-cust/toDoTask/queryTask",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103005",
+        "PRIVILEGE_ID": 1000002013,
+        "PARENT_PRIVILEGE_ID": 1000000009,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/toDoTask/queryTask"
+      }
+    },
+    {
+      "owner_menu_id": "1000000009",
+      "name": "导出",
+      "privilege_id": 1000002014,
+      "privilege_code": "100103006",
+      "parent_privilege_id": 1000000009,
+      "privilege_type": "2",
+      "url": "/web-cust/toDoTask/export",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103006",
+        "PRIVILEGE_ID": 1000002014,
+        "PARENT_PRIVILEGE_ID": 1000000009,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/toDoTask/export"
+      }
+    },
+    {
+      "owner_menu_id": "25",
+      "name": "导出",
+      "privilege_id": 705,
+      "privilege_code": "100107005",
+      "parent_privilege_id": 25,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workExcelExport/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100107005",
+        "PRIVILEGE_ID": 705,
+        "PARENT_PRIVILEGE_ID": 25,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workExcelExport/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "新增",
+      "privilege_id": 5122,
+      "privilege_code": "920008001",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/addQrCode",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008001",
+        "PRIVILEGE_ID": 5122,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/addQrCode"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "修改",
+      "privilege_id": 5123,
+      "privilege_code": "920008002",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/updateQrCode",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008002",
+        "PRIVILEGE_ID": 5123,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/updateQrCode"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "删除",
+      "privilege_id": 5124,
+      "privilege_code": "920008003",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/deleteData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008003",
+        "PRIVILEGE_ID": 5124,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/deleteData"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "二维码下载",
+      "privilege_id": 5125,
+      "privilege_code": "920008004",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/downImg",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008004",
+        "PRIVILEGE_ID": 5125,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "二维码下载",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/downImg"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "导出",
+      "privilege_id": 5126,
+      "privilege_code": "920008005",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008005",
+        "PRIVILEGE_ID": 5126,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "5121",
+      "name": "查询",
+      "privilege_id": 1000002050,
+      "privilege_code": "920008006",
+      "parent_privilege_id": 5121,
+      "privilege_type": "2",
+      "url": "/web-bus/quesQrCodeInfoController/qrCodeListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920008006",
+        "PRIVILEGE_ID": 1000002050,
+        "PARENT_PRIVILEGE_ID": 5121,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/quesQrCodeInfoController/qrCodeListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "1000003639",
+      "name": "新增",
+      "privilege_id": 1000003640,
+      "privilege_code": "920016001",
+      "parent_privilege_id": 1000003639,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/inspection/saveServiceInspection",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920016001",
+        "PRIVILEGE_ID": 1000003640,
+        "PARENT_PRIVILEGE_ID": 1000003639,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/inspection/saveServiceInspection"
+      }
+    },
+    {
+      "owner_menu_id": "1000003639",
+      "name": "修改",
+      "privilege_id": 1000003641,
+      "privilege_code": "920016002",
+      "parent_privilege_id": 1000003639,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/inspection/saveSerStandard",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920016002",
+        "PRIVILEGE_ID": 1000003641,
+        "PARENT_PRIVILEGE_ID": 1000003639,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/inspection/saveSerStandard"
+      }
+    },
+    {
+      "owner_menu_id": "1000003639",
+      "name": "删除",
+      "privilege_id": 1000003647,
+      "privilege_code": "920016003",
+      "parent_privilege_id": 1000003639,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/inspection/deleteInspectionById",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920016003",
+        "PRIVILEGE_ID": 1000003647,
+        "PARENT_PRIVILEGE_ID": 1000003639,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/inspection/deleteInspectionById"
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "列设置",
+      "privilege_id": 1000000419,
+      "privilege_code": "100211001",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211001",
+        "PRIVILEGE_ID": 1000000419,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "导出",
+      "privilege_id": 1000000420,
+      "privilege_code": "100211002",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationViolation/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211002",
+        "PRIVILEGE_ID": 1000000420,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationViolation/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "跟踪",
+      "privilege_id": 1000000421,
+      "privilege_code": "100211003",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211003",
+        "PRIVILEGE_ID": 1000000421,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "跟踪",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "打印",
+      "privilege_id": 1000000422,
+      "privilege_code": "100211004",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211004",
+        "PRIVILEGE_ID": 1000000422,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "打印",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "下载",
+      "privilege_id": 1000000423,
+      "privilege_code": "100211005",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211005",
+        "PRIVILEGE_ID": 1000000423,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "下载",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000409",
+      "name": "查询",
+      "privilege_id": 1000000424,
+      "privilege_code": "100211006",
+      "parent_privilege_id": 1000000409,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationViolation/queryRenovationViolationList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100211006",
+        "PRIVILEGE_ID": 1000000424,
+        "PARENT_PRIVILEGE_ID": 1000000409,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationViolation/queryRenovationViolationList"
+      }
+    },
+    {
+      "owner_menu_id": "5521",
+      "name": "导出",
+      "privilege_id": 5621,
+      "privilege_code": "700900001",
+      "parent_privilege_id": 5521,
+      "privilege_type": "2",
+      "url": "/web-sys/interfaceLogManage/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700900001",
+        "PRIVILEGE_ID": 5621,
+        "PARENT_PRIVILEGE_ID": 5521,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/interfaceLogManage/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "5521",
+      "name": "查询",
+      "privilege_id": 1000002112,
+      "privilege_code": "700900002",
+      "parent_privilege_id": 5521,
+      "privilege_type": "2",
+      "url": "/web-sys/interfaceLogManage/queryInterfaceLogList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "700900002",
+        "PRIVILEGE_ID": 1000002112,
+        "PARENT_PRIVILEGE_ID": 5521,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-sys/interfaceLogManage/queryInterfaceLogList"
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "导出列表1",
+      "privilege_id": 4221,
+      "privilege_code": "600810001",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810001",
+        "PRIVILEGE_ID": 4221,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "导出列表1",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "导出列表2",
+      "privilege_id": 4222,
+      "privilege_code": "600810002",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810002",
+        "PRIVILEGE_ID": 4222,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "导出列表2",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "导出列表3",
+      "privilege_id": 4223,
+      "privilege_code": "600810003",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810003",
+        "PRIVILEGE_ID": 4223,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "导出列表3",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "导出列表4",
+      "privilege_id": 4224,
+      "privilege_code": "600810004",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810004",
+        "PRIVILEGE_ID": 4224,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "导出列表4",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "列设置",
+      "privilege_id": 4225,
+      "privilege_code": "600810005",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810005",
+        "PRIVILEGE_ID": 4225,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "3221",
+      "name": "查询",
+      "privilege_id": 1000002100,
+      "privilege_code": "600810006",
+      "parent_privilege_id": 3221,
+      "privilege_type": "2",
+      "url": "/web-report/processEfficiency/efficiencyViewQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600810006",
+        "PRIVILEGE_ID": 1000002100,
+        "PARENT_PRIVILEGE_ID": 3221,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/processEfficiency/efficiencyViewQuery"
+      }
+    },
+    {
+      "owner_menu_id": "1000001212",
+      "name": "员工评价导出列表1",
+      "privilege_id": 1000001312,
+      "privilege_code": "930100001",
+      "parent_privilege_id": 1000001212,
+      "privilege_type": "2",
+      "url": "/web-report/employeeEvaluationStatement/efficiencyView1exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930100001",
+        "PRIVILEGE_ID": 1000001312,
+        "PARENT_PRIVILEGE_ID": 1000001212,
+        "PRIVILEGE_NAME": "员工评价导出列表1",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/employeeEvaluationStatement/efficiencyView1exportData"
+      }
+    },
+    {
+      "owner_menu_id": "1000001212",
+      "name": "员工评价导出列表2",
+      "privilege_id": 1000001313,
+      "privilege_code": "930100002",
+      "parent_privilege_id": 1000001212,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930100002",
+        "PRIVILEGE_ID": 1000001313,
+        "PARENT_PRIVILEGE_ID": 1000001212,
+        "PRIVILEGE_NAME": "员工评价导出列表2",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001212",
+      "name": "员工评价导出列表3",
+      "privilege_id": 1000001314,
+      "privilege_code": "930100003",
+      "parent_privilege_id": 1000001212,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930100003",
+        "PRIVILEGE_ID": 1000001314,
+        "PARENT_PRIVILEGE_ID": 1000001212,
+        "PRIVILEGE_NAME": "员工评价导出列表3",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001212",
+      "name": "员工评价导出列表4",
+      "privilege_id": 1000001315,
+      "privilege_code": "930100004",
+      "parent_privilege_id": 1000001212,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930100004",
+        "PRIVILEGE_ID": 1000001315,
+        "PARENT_PRIVILEGE_ID": 1000001212,
+        "PRIVILEGE_NAME": "员工评价导出列表4",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000001212",
+      "name": "查询",
+      "privilege_id": 1000002097,
+      "privilege_code": "930100005",
+      "parent_privilege_id": 1000001212,
+      "privilege_type": "2",
+      "url": "/web-report/employeeEvaluationStatement/efficiencyViewQuery1",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930100005",
+        "PRIVILEGE_ID": 1000002097,
+        "PARENT_PRIVILEGE_ID": 1000001212,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/employeeEvaluationStatement/efficiencyViewQuery1"
+      }
+    },
+    {
+      "owner_menu_id": "1000000002",
+      "name": "导出",
+      "privilege_id": 1000000003,
+      "privilege_code": "500003001",
+      "parent_privilege_id": 1000000002,
+      "privilege_type": "2",
+      "url": "/web-seo/custUpdateLog/exportCustUpdateLog",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500003001",
+        "PRIVILEGE_ID": 1000000003,
+        "PARENT_PRIVILEGE_ID": 1000000002,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/custUpdateLog/exportCustUpdateLog"
+      }
+    },
+    {
+      "owner_menu_id": "1000000002",
+      "name": "查询",
+      "privilege_id": 1000002078,
+      "privilege_code": "500003002",
+      "parent_privilege_id": 1000000002,
+      "privilege_type": "2",
+      "url": "/web-seo/custUpdateLog/selectList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500003002",
+        "PRIVILEGE_ID": 1000002078,
+        "PARENT_PRIVILEGE_ID": 1000000002,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/custUpdateLog/selectList"
+      }
+    },
+    {
+      "owner_menu_id": "1000000008",
+      "name": "数据管理",
+      "privilege_id": 1000000009,
+      "privilege_code": "100103001",
+      "parent_privilege_id": 1000000008,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103001",
+        "PRIVILEGE_ID": 1000000009,
+        "PARENT_PRIVILEGE_ID": 1000000008,
+        "PRIVILEGE_NAME": "数据管理",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000008",
+      "name": "提单本人回访",
+      "privilege_id": 1000000010,
+      "privilege_code": "100103002",
+      "parent_privilege_id": 1000000008,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103002",
+        "PRIVILEGE_ID": 1000000010,
+        "PARENT_PRIVILEGE_ID": 1000000008,
+        "PRIVILEGE_NAME": "提单本人回访",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000008",
+      "name": "工作台",
+      "privilege_id": 14724,
+      "privilege_code": "100103003",
+      "parent_privilege_id": 1000000008,
+      "privilege_type": "2",
+      "url": "https://crm.copm.com.cn/crm/#/autoLogin",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103003",
+        "PRIVILEGE_ID": 14724,
+        "PARENT_PRIVILEGE_ID": 1000000008,
+        "PRIVILEGE_NAME": "工作台",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "https://crm.copm.com.cn/crm/#/autoLogin"
+      }
+    },
+    {
+      "owner_menu_id": "1000000008",
+      "name": "导出",
+      "privilege_id": 6324,
+      "privilege_code": "100103004",
+      "parent_privilege_id": 1000000008,
+      "privilege_type": "2",
+      "url": "/web-cust/toDoTask/export",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103004",
+        "PRIVILEGE_ID": 6324,
+        "PARENT_PRIVILEGE_ID": 1000000008,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/toDoTask/export"
+      }
+    },
+    {
+      "owner_menu_id": "1000000008",
+      "name": "判定",
+      "privilege_id": 1000003714,
+      "privilege_code": "100103007",
+      "parent_privilege_id": 1000000008,
+      "privilege_type": "2",
+      "url": "/",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100103007",
+        "PRIVILEGE_ID": 1000003714,
+        "PARENT_PRIVILEGE_ID": 1000000008,
+        "PRIVILEGE_NAME": "判定",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/"
+      }
+    },
+    {
+      "owner_menu_id": "136",
+      "name": "置顶",
+      "privilege_id": 41,
+      "privilege_code": "100108001",
+      "parent_privilege_id": 136,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/qry_neighbour_social_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100108001",
+        "PRIVILEGE_ID": 41,
+        "PARENT_PRIVILEGE_ID": 136,
+        "PRIVILEGE_NAME": "置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/qry_neighbour_social_list"
+      }
+    },
+    {
+      "owner_menu_id": "136",
+      "name": "隐藏",
+      "privilege_id": 44,
+      "privilege_code": "100108003",
+      "parent_privilege_id": 136,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/qry_neighbour_social_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100108003",
+        "PRIVILEGE_ID": 44,
+        "PARENT_PRIVILEGE_ID": 136,
+        "PRIVILEGE_NAME": "隐藏",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/qry_neighbour_social_list"
+      }
+    },
+    {
+      "owner_menu_id": "136",
+      "name": "删除",
+      "privilege_id": 45,
+      "privilege_code": "100108004",
+      "parent_privilege_id": 136,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/qry_neighbour_social_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100108004",
+        "PRIVILEGE_ID": 45,
+        "PARENT_PRIVILEGE_ID": 136,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/qry_neighbour_social_list"
+      }
+    },
+    {
+      "owner_menu_id": "136",
+      "name": "查询",
+      "privilege_id": 1000002017,
+      "privilege_code": "100108006",
+      "parent_privilege_id": 136,
+      "privilege_type": "2",
+      "url": "/web-odm/pc/qry_neighbour_social_list",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100108006",
+        "PRIVILEGE_ID": 1000002017,
+        "PARENT_PRIVILEGE_ID": 136,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-odm/pc/qry_neighbour_social_list"
+      }
+    },
+    {
+      "owner_menu_id": "1000000053",
+      "name": "查询",
+      "privilege_id": 1000000054,
+      "privilege_code": "920012001",
+      "parent_privilege_id": 1000000053,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/pushManageController/query",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920012001",
+        "PRIVILEGE_ID": 1000000054,
+        "PARENT_PRIVILEGE_ID": 1000000053,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/pushManageController/query"
+      }
+    },
+    {
+      "owner_menu_id": "1000000053",
+      "name": "导出",
+      "privilege_id": 1000000055,
+      "privilege_code": "920012002",
+      "parent_privilege_id": 1000000053,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/pushManageController/excelExprort",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920012002",
+        "PRIVILEGE_ID": 1000000055,
+        "PARENT_PRIVILEGE_ID": 1000000053,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/pushManageController/excelExprort"
+      }
+    },
+    {
+      "owner_menu_id": "1000000053",
+      "name": "新增",
+      "privilege_id": 1000000056,
+      "privilege_code": "920012003",
+      "parent_privilege_id": 1000000053,
+      "privilege_type": "2",
+      "url": "/web-bus/DoorPagePushManageController/addCustAppPagePush",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920012003",
+        "PRIVILEGE_ID": 1000000056,
+        "PARENT_PRIVILEGE_ID": 1000000053,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/DoorPagePushManageController/addCustAppPagePush"
+      }
+    },
+    {
+      "owner_menu_id": "1000000053",
+      "name": "删除",
+      "privilege_id": 1000000057,
+      "privilege_code": "920012004",
+      "parent_privilege_id": 1000000053,
+      "privilege_type": "2",
+      "url": "/web-bus/DoorPagePushManageController/deleteCustAppPagePush",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920012004",
+        "PRIVILEGE_ID": 1000000057,
+        "PARENT_PRIVILEGE_ID": 1000000053,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/DoorPagePushManageController/deleteCustAppPagePush"
+      }
+    },
+    {
+      "owner_menu_id": "1000000053",
+      "name": "修改",
+      "privilege_id": 1000000058,
+      "privilege_code": "920012005",
+      "parent_privilege_id": 1000000053,
+      "privilege_type": "2",
+      "url": "/web-bus/DoorPagePushManageController/updateCustAppPagePush",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920012005",
+        "PRIVILEGE_ID": 1000000058,
+        "PARENT_PRIVILEGE_ID": 1000000053,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/DoorPagePushManageController/updateCustAppPagePush"
+      }
+    },
+    {
+      "owner_menu_id": "615",
+      "name": "查询",
+      "privilege_id": 1000002085,
+      "privilege_code": "600006001",
+      "parent_privilege_id": 615,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/queryChargeQueryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600006001",
+        "PRIVILEGE_ID": 1000002085,
+        "PARENT_PRIVILEGE_ID": 615,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/queryChargeQueryList"
+      }
+    },
+    {
+      "owner_menu_id": "615",
+      "name": "导出",
+      "privilege_id": 617,
+      "privilege_code": "600006002",
+      "parent_privilege_id": 615,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/exprortChargeQueryList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600006002",
+        "PRIVILEGE_ID": 617,
+        "PARENT_PRIVILEGE_ID": 615,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/exprortChargeQueryList"
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "上架",
+      "privilege_id": 87,
+      "privilege_code": "400200002",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200002",
+        "PRIVILEGE_ID": 87,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "上架",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "下架",
+      "privilege_id": 88,
+      "privilege_code": "400200003",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200003",
+        "PRIVILEGE_ID": 88,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "下架",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "保存",
+      "privilege_id": 219,
+      "privilege_code": "400200004",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200004",
+        "PRIVILEGE_ID": 219,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "保存",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "保存为草稿",
+      "privilege_id": 220,
+      "privilege_code": "400200005",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200005",
+        "PRIVILEGE_ID": 220,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "保存为草稿",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "添加",
+      "privilege_id": 271,
+      "privilege_code": "400200006",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200006",
+        "PRIVILEGE_ID": 271,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "添加",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "修改",
+      "privilege_id": 2421,
+      "privilege_code": "400200009",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200009",
+        "PRIVILEGE_ID": 2421,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "置顶",
+      "privilege_id": 2521,
+      "privilege_code": "400200010",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200010",
+        "PRIVILEGE_ID": 2521,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "置顶",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "73",
+      "name": "查询",
+      "privilege_id": 1000002059,
+      "privilege_code": "400200013",
+      "parent_privilege_id": 73,
+      "privilege_type": "2",
+      "url": "/web-bus/advertising/advertisingListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400200013",
+        "PRIVILEGE_ID": 1000002059,
+        "PARENT_PRIVILEGE_ID": 73,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/advertising/advertisingListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "77",
+      "name": "查看",
+      "privilege_id": 81,
+      "privilege_code": "400300001",
+      "parent_privilege_id": 77,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400300001",
+        "PRIVILEGE_ID": 81,
+        "PARENT_PRIVILEGE_ID": 77,
+        "PRIVILEGE_NAME": "查看",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "77",
+      "name": "新增",
+      "privilege_id": 80,
+      "privilege_code": "400300002",
+      "parent_privilege_id": 77,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400300002",
+        "PRIVILEGE_ID": 80,
+        "PARENT_PRIVILEGE_ID": 77,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "77",
+      "name": "删除",
+      "privilege_id": 79,
+      "privilege_code": "400300003",
+      "parent_privilege_id": 77,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400300003",
+        "PRIVILEGE_ID": 79,
+        "PARENT_PRIVILEGE_ID": 77,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "77",
+      "name": "查询",
+      "privilege_id": 1000002061,
+      "privilege_code": "400300004",
+      "parent_privilege_id": 77,
+      "privilege_type": "2",
+      "url": "/web-bus/template/templateListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400300004",
+        "PRIVILEGE_ID": 1000002061,
+        "PARENT_PRIVILEGE_ID": 77,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/template/templateListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "1000001409",
+      "name": "导出",
+      "privilege_id": 1000001411,
+      "privilege_code": "920990001",
+      "parent_privilege_id": 1000001409,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920990001",
+        "PRIVILEGE_ID": 1000001411,
+        "PARENT_PRIVILEGE_ID": 1000001409,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "6023",
+      "name": "查询",
+      "privilege_id": 1000002115,
+      "privilege_code": "701100001",
+      "parent_privilege_id": 6023,
+      "privilege_type": "2",
+      "url": "/portal/pc/noticeList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "701100001",
+        "PRIVILEGE_ID": 1000002115,
+        "PARENT_PRIVILEGE_ID": 6023,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/portal/pc/noticeList"
+      }
+    },
+    {
+      "owner_menu_id": "6023",
+      "name": "批量删除",
+      "privilege_id": 1000002116,
+      "privilege_code": "701100002",
+      "parent_privilege_id": 6023,
+      "privilege_type": "2",
+      "url": "/portal/pc/deleteMessage",
+      "source_fields": {
+        "PRIVILEGE_CODE": "701100002",
+        "PRIVILEGE_ID": 1000002116,
+        "PARENT_PRIVILEGE_ID": 6023,
+        "PRIVILEGE_NAME": "批量删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/portal/pc/deleteMessage"
+      }
+    },
+    {
+      "owner_menu_id": "6023",
+      "name": "查询",
+      "privilege_id": 1000002117,
+      "privilege_code": "701100003",
+      "parent_privilege_id": 6023,
+      "privilege_type": "2",
+      "url": "/web-bus/simulator/ccbPayTimingService/ccbPayOrderQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "701100003",
+        "PRIVILEGE_ID": 1000002117,
+        "PARENT_PRIVILEGE_ID": 6023,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/simulator/ccbPayTimingService/ccbPayOrderQuery"
+      }
+    },
+    {
+      "owner_menu_id": "6221",
+      "name": "查询",
+      "privilege_id": 1000002029,
+      "privilege_code": "100234001",
+      "parent_privilege_id": 6221,
+      "privilege_type": "2",
+      "url": "/web-cust/bankWithholding/initialization",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100234001",
+        "PRIVILEGE_ID": 1000002029,
+        "PARENT_PRIVILEGE_ID": 6221,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/bankWithholding/initialization"
+      }
+    },
+    {
+      "owner_menu_id": "6221",
+      "name": "查询",
+      "privilege_id": 1000000912,
+      "privilege_code": "100234101",
+      "parent_privilege_id": 6221,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100234101",
+        "PRIVILEGE_ID": 1000000912,
+        "PARENT_PRIVILEGE_ID": 6221,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "6221",
+      "name": "导出",
+      "privilege_id": 6421,
+      "privilege_code": "100234110",
+      "parent_privilege_id": 6221,
+      "privilege_type": "2",
+      "url": "/web-cust/bankWithholding/exportInitialization",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100234110",
+        "PRIVILEGE_ID": 6421,
+        "PARENT_PRIVILEGE_ID": 6221,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/bankWithholding/exportInitialization"
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "调度导出列表1",
+      "privilege_id": 4226,
+      "privilege_code": "600820001",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "/web-report/scheduEfficiency/efficiencyView1exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820001",
+        "PRIVILEGE_ID": 4226,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "调度导出列表1",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/scheduEfficiency/efficiencyView1exportData"
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "调度导出列表2",
+      "privilege_id": 4227,
+      "privilege_code": "600820002",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820002",
+        "PRIVILEGE_ID": 4227,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "调度导出列表2",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "调度导出列表3",
+      "privilege_id": 4228,
+      "privilege_code": "600820003",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820003",
+        "PRIVILEGE_ID": 4228,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "调度导出列表3",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "调度导出列表4",
+      "privilege_id": 4229,
+      "privilege_code": "600820004",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820004",
+        "PRIVILEGE_ID": 4229,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "调度导出列表4",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "列设置",
+      "privilege_id": 4321,
+      "privilege_code": "600820005",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820005",
+        "PRIVILEGE_ID": 4321,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "4121",
+      "name": "查询",
+      "privilege_id": 1000002098,
+      "privilege_code": "600820006",
+      "parent_privilege_id": 4121,
+      "privilege_type": "2",
+      "url": "/web-report/scheduEfficiency/efficiencyViewQuery1",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600820006",
+        "PRIVILEGE_ID": 1000002098,
+        "PARENT_PRIVILEGE_ID": 4121,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/scheduEfficiency/efficiencyViewQuery1"
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "新增",
+      "privilege_id": 1000003632,
+      "privilege_code": "920015001",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "/web-cust/baseConfig/addBaseConfig",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015001",
+        "PRIVILEGE_ID": 1000003632,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/baseConfig/addBaseConfig"
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "删除",
+      "privilege_id": 1000003633,
+      "privilege_code": "920015002",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "/web-cust/baseConfig/delBaseConfig",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015002",
+        "PRIVILEGE_ID": 1000003633,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/baseConfig/delBaseConfig"
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "岗位详情\r\n",
+      "privilege_id": 1000003634,
+      "privilege_code": "920015003",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015003",
+        "PRIVILEGE_ID": 1000003634,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "岗位详情\r\n",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "述职报告\r\n",
+      "privilege_id": 1000003635,
+      "privilege_code": "920015004",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015004",
+        "PRIVILEGE_ID": 1000003635,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "述职报告\r\n",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "启动测评\r\n",
+      "privilege_id": 1000003636,
+      "privilege_code": "920015005",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015005",
+        "PRIVILEGE_ID": 1000003636,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "启动测评\r\n",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000003628",
+      "name": "查询",
+      "privilege_id": 1000002055,
+      "privilege_code": "920015006",
+      "parent_privilege_id": 1000003628,
+      "privilege_type": "2",
+      "url": "/web-cust/baseConfig/selectList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920015006",
+        "PRIVILEGE_ID": 1000002055,
+        "PARENT_PRIVILEGE_ID": 1000003628,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/baseConfig/selectList"
+      }
+    },
+    {
+      "owner_menu_id": "4122",
+      "name": "导出",
+      "privilege_id": 4230,
+      "privilege_code": "600830001",
+      "parent_privilege_id": 4122,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600830001",
+        "PRIVILEGE_ID": 4230,
+        "PARENT_PRIVILEGE_ID": 4122,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "4122",
+      "name": "列设置",
+      "privilege_id": 4231,
+      "privilege_code": "600830002",
+      "parent_privilege_id": 4122,
+      "privilege_type": "2",
+      "url": "/web-bus/columnController/saveTableColumn",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600830002",
+        "PRIVILEGE_ID": 4231,
+        "PARENT_PRIVILEGE_ID": 4122,
+        "PRIVILEGE_NAME": "列设置",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/columnController/saveTableColumn"
+      }
+    },
+    {
+      "owner_menu_id": "4122",
+      "name": "查询",
+      "privilege_id": 1000002099,
+      "privilege_code": "600830003",
+      "parent_privilege_id": 4122,
+      "privilege_type": "2",
+      "url": "/web-report/processEfficiency/efficiencyQueryWork",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600830003",
+        "PRIVILEGE_ID": 1000002099,
+        "PARENT_PRIVILEGE_ID": 4122,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-report/processEfficiency/efficiencyQueryWork"
+      }
+    },
+    {
+      "owner_menu_id": "1000000717",
+      "name": "新增",
+      "privilege_id": 1000001311,
+      "privilege_code": "920018001",
+      "parent_privilege_id": 1000000717,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/renovationConfigure/addRenovationConfigure",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920018001",
+        "PRIVILEGE_ID": 1000001311,
+        "PARENT_PRIVILEGE_ID": 1000000717,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/renovationConfigure/addRenovationConfigure"
+      }
+    },
+    {
+      "owner_menu_id": "1000000717",
+      "name": "删除",
+      "privilege_id": 1000001316,
+      "privilege_code": "920018002",
+      "parent_privilege_id": 1000000717,
+      "privilege_type": "2",
+      "url": "/web-bus/vacantRoomConfigureByPC/deleteVacantRoomConfigureById",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920018002",
+        "PRIVILEGE_ID": 1000001316,
+        "PARENT_PRIVILEGE_ID": 1000000717,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/vacantRoomConfigureByPC/deleteVacantRoomConfigureById"
+      }
+    },
+    {
+      "owner_menu_id": "1000000717",
+      "name": "修改",
+      "privilege_id": 1000001317,
+      "privilege_code": "920018003",
+      "parent_privilege_id": 1000000717,
+      "privilege_type": "2",
+      "url": "/web-bus/vacantRoomConfigureByPC/updateVacantRoomConfigure",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920018003",
+        "PRIVILEGE_ID": 1000001317,
+        "PARENT_PRIVILEGE_ID": 1000000717,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/vacantRoomConfigureByPC/updateVacantRoomConfigure"
+      }
+    },
+    {
+      "owner_menu_id": "1000000717",
+      "name": "查询",
+      "privilege_id": 1000002057,
+      "privilege_code": "920018004",
+      "parent_privilege_id": 1000000717,
+      "privilege_type": "2",
+      "url": "/web-bus/vacantRoomConfigureByPC/queryVacantRoomConfigureList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920018004",
+        "PRIVILEGE_ID": 1000002057,
+        "PARENT_PRIVILEGE_ID": 1000000717,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/vacantRoomConfigureByPC/queryVacantRoomConfigureList"
+      }
+    },
+    {
+      "owner_menu_id": "1000003627",
+      "name": "新增",
+      "privilege_id": 1000003629,
+      "privilege_code": "920014001",
+      "parent_privilege_id": 1000003627,
+      "privilege_type": "2",
+      "url": "/web-cust/postPool/addPost",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920014001",
+        "PRIVILEGE_ID": 1000003629,
+        "PARENT_PRIVILEGE_ID": 1000003627,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/postPool/addPost"
+      }
+    },
+    {
+      "owner_menu_id": "1000003627",
+      "name": "删除",
+      "privilege_id": 1000003630,
+      "privilege_code": "920014002",
+      "parent_privilege_id": 1000003627,
+      "privilege_type": "2",
+      "url": "/web-cust/postPool/delPost",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920014002",
+        "PRIVILEGE_ID": 1000003630,
+        "PARENT_PRIVILEGE_ID": 1000003627,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/postPool/delPost"
+      }
+    },
+    {
+      "owner_menu_id": "1000003627",
+      "name": "编辑",
+      "privilege_id": 1000003631,
+      "privilege_code": "920014003",
+      "parent_privilege_id": 1000003627,
+      "privilege_type": "2",
+      "url": "/web-cust/postPool/editPost",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920014003",
+        "PRIVILEGE_ID": 1000003631,
+        "PARENT_PRIVILEGE_ID": 1000003627,
+        "PRIVILEGE_NAME": "编辑",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/postPool/editPost"
+      }
+    },
+    {
+      "owner_menu_id": "1000003627",
+      "name": "查询",
+      "privilege_id": 1000002054,
+      "privilege_code": "920014004",
+      "parent_privilege_id": 1000003627,
+      "privilege_type": "2",
+      "url": "/web-cust/postPool/selectList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920014004",
+        "PRIVILEGE_ID": 1000002054,
+        "PARENT_PRIVILEGE_ID": 1000003627,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/postPool/selectList"
+      }
+    },
+    {
+      "owner_menu_id": "1000003704",
+      "name": "导出",
+      "privilege_id": 1000003705,
+      "privilege_code": "600908001",
+      "parent_privilege_id": 1000003704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600908001",
+        "PRIVILEGE_ID": 1000003705,
+        "PARENT_PRIVILEGE_ID": 1000003704,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000003704",
+      "name": "查询",
+      "privilege_id": 1000002096,
+      "privilege_code": "600908002",
+      "parent_privilege_id": 1000003704,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/queryReduceLiquidatedDamageList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600908002",
+        "PRIVILEGE_ID": 1000002096,
+        "PARENT_PRIVILEGE_ID": 1000003704,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/queryReduceLiquidatedDamageList"
+      }
+    },
+    {
+      "owner_menu_id": "1000001008",
+      "name": "催缴费金额统计导出",
+      "privilege_id": 1000001608,
+      "privilege_code": "930915001",
+      "parent_privilege_id": 1000001008,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930915001",
+        "PRIVILEGE_ID": 1000001608,
+        "PARENT_PRIVILEGE_ID": 1000001008,
+        "PRIVILEGE_NAME": "催缴费金额统计导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1721",
+      "name": "查询",
+      "privilege_id": 1000002035,
+      "privilege_code": "100901001",
+      "parent_privilege_id": 1721,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/feedbackInfoList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100901001",
+        "PRIVILEGE_ID": 1000002035,
+        "PARENT_PRIVILEGE_ID": 1721,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/feedbackInfoList"
+      }
+    },
+    {
+      "owner_menu_id": "1721",
+      "name": "导出",
+      "privilege_id": 1821,
+      "privilege_code": "100901100",
+      "parent_privilege_id": 1721,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/exportFeedbackInfo",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100901100",
+        "PRIVILEGE_ID": 1821,
+        "PARENT_PRIVILEGE_ID": 1721,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/exportFeedbackInfo"
+      }
+    },
+    {
+      "owner_menu_id": "102",
+      "name": "删除",
+      "privilege_id": 591,
+      "privilege_code": "300001001",
+      "parent_privilege_id": 102,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300001001",
+        "PRIVILEGE_ID": 591,
+        "PARENT_PRIVILEGE_ID": 102,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "102",
+      "name": "编辑",
+      "privilege_id": 5030,
+      "privilege_code": "300001002",
+      "parent_privilege_id": 102,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300001002",
+        "PRIVILEGE_ID": 5030,
+        "PARENT_PRIVILEGE_ID": 102,
+        "PRIVILEGE_NAME": "编辑",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "102",
+      "name": "修改手机号码",
+      "privilege_id": 5031,
+      "privilege_code": "300001003",
+      "parent_privilege_id": 102,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300001003",
+        "PRIVILEGE_ID": 5031,
+        "PARENT_PRIVILEGE_ID": 102,
+        "PRIVILEGE_NAME": "修改手机号码",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "102",
+      "name": "查询",
+      "privilege_id": 1000002041,
+      "privilege_code": "300001004",
+      "parent_privilege_id": 102,
+      "privilege_type": "2",
+      "url": "/web-cust/mobile/queryServiceyh",
+      "source_fields": {
+        "PRIVILEGE_CODE": "300001004",
+        "PRIVILEGE_ID": 1000002041,
+        "PARENT_PRIVILEGE_ID": 102,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/mobile/queryServiceyh"
+      }
+    },
+    {
+      "owner_menu_id": "821",
+      "name": "城市公司导出",
+      "privilege_id": 1021,
+      "privilege_code": "600700100",
+      "parent_privilege_id": 821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600700100",
+        "PRIVILEGE_ID": 1021,
+        "PARENT_PRIVILEGE_ID": 821,
+        "PRIVILEGE_NAME": "城市公司导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "821",
+      "name": "服务中心导出",
+      "privilege_id": 1121,
+      "privilege_code": "600700200",
+      "parent_privilege_id": 821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600700200",
+        "PRIVILEGE_ID": 1121,
+        "PARENT_PRIVILEGE_ID": 821,
+        "PRIVILEGE_NAME": "服务中心导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "821",
+      "name": "房产认证导出",
+      "privilege_id": 600700300,
+      "privilege_code": "600700300",
+      "parent_privilege_id": 821,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "600700300",
+        "PRIVILEGE_ID": 600700300,
+        "PARENT_PRIVILEGE_ID": 821,
+        "PRIVILEGE_NAME": "房产认证导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "进度列表",
+      "privilege_id": 1000000045,
+      "privilege_code": "100117003",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117003",
+        "PRIVILEGE_ID": 1000000045,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "进度列表",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "评论",
+      "privilege_id": 1000000046,
+      "privilege_code": "100117004",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117004",
+        "PRIVILEGE_ID": 1000000046,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "评论",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "评价",
+      "privilege_id": 1000000047,
+      "privilege_code": "100117005",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117005",
+        "PRIVILEGE_ID": 1000000047,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "评价",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "修改",
+      "privilege_id": 1000000048,
+      "privilege_code": "100117006",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117006",
+        "PRIVILEGE_ID": 1000000048,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "新增",
+      "privilege_id": 1000000049,
+      "privilege_code": "100117007",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117007",
+        "PRIVILEGE_ID": 1000000049,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "导入",
+      "privilege_id": 1000000050,
+      "privilege_code": "100117008",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": "100117008",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117008",
+        "PRIVILEGE_ID": 1000000050,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "导入",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "100117008"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "导出",
+      "privilege_id": 1000000051,
+      "privilege_code": "100117009",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workPlan/excelExport",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117009",
+        "PRIVILEGE_ID": 1000000051,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workPlan/excelExport"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "二维码下载",
+      "privilege_id": 1000002315,
+      "privilege_code": "100117010",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workPlan/downloadQRZip",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117010",
+        "PRIVILEGE_ID": 1000002315,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "二维码下载",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workPlan/downloadQRZip"
+      }
+    },
+    {
+      "owner_menu_id": "1000000042",
+      "name": "查询",
+      "privilege_id": 1000002022,
+      "privilege_code": "100117011",
+      "parent_privilege_id": 1000000042,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/workPlan/queryWorkPlanList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "100117011",
+        "PRIVILEGE_ID": 1000002022,
+        "PARENT_PRIVILEGE_ID": 1000000042,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/workPlan/queryWorkPlanList"
+      }
+    },
+    {
+      "owner_menu_id": "625",
+      "name": "新增",
+      "privilege_id": 621,
+      "privilege_code": "920003001",
+      "parent_privilege_id": 625,
+      "privilege_type": "2",
+      "url": "/web-bus/doorEquip/addData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920003001",
+        "PRIVILEGE_ID": 621,
+        "PARENT_PRIVILEGE_ID": 625,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/doorEquip/addData"
+      }
+    },
+    {
+      "owner_menu_id": "625",
+      "name": "批量新增",
+      "privilege_id": 622,
+      "privilege_code": "920003002",
+      "parent_privilege_id": 625,
+      "privilege_type": "2",
+      "url": "/web-bus/doorEquip/addDoorEquipBatch",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920003002",
+        "PRIVILEGE_ID": 622,
+        "PARENT_PRIVILEGE_ID": 625,
+        "PRIVILEGE_NAME": "批量新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/doorEquip/addDoorEquipBatch"
+      }
+    },
+    {
+      "owner_menu_id": "625",
+      "name": "导出",
+      "privilege_id": 623,
+      "privilege_code": "920003003",
+      "parent_privilege_id": 625,
+      "privilege_type": "2",
+      "url": "/web-bus/doorEquip/exportData",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920003003",
+        "PRIVILEGE_ID": 623,
+        "PARENT_PRIVILEGE_ID": 625,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/doorEquip/exportData"
+      }
+    },
+    {
+      "owner_menu_id": "625",
+      "name": "查询",
+      "privilege_id": 1000002046,
+      "privilege_code": "920003004",
+      "parent_privilege_id": 625,
+      "privilege_type": "2",
+      "url": "/web-bus/doorEquip/doorEquipListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920003004",
+        "PRIVILEGE_ID": 1000002046,
+        "PARENT_PRIVILEGE_ID": 625,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/doorEquip/doorEquipListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "5721",
+      "name": "城市公司积分报表导出",
+      "privilege_id": 5723,
+      "privilege_code": "930888002",
+      "parent_privilege_id": 5721,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930888002",
+        "PRIVILEGE_ID": 5723,
+        "PARENT_PRIVILEGE_ID": 5721,
+        "PRIVILEGE_NAME": "城市公司积分报表导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5721",
+      "name": "服务中心积分报表导出",
+      "privilege_id": 5724,
+      "privilege_code": "930888003",
+      "parent_privilege_id": 5721,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930888003",
+        "PRIVILEGE_ID": 5724,
+        "PARENT_PRIVILEGE_ID": 5721,
+        "PRIVILEGE_NAME": "服务中心积分报表导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5721",
+      "name": "查询",
+      "privilege_id": 1000002102,
+      "privilege_code": "930888004",
+      "parent_privilege_id": 5721,
+      "privilege_type": "2",
+      "url": "/web-cust/IntegralStatements/listIntegralStatementsByOrg.do",
+      "source_fields": {
+        "PRIVILEGE_CODE": "930888004",
+        "PRIVILEGE_ID": 1000002102,
+        "PARENT_PRIVILEGE_ID": 5721,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/IntegralStatements/listIntegralStatementsByOrg.do"
+      }
+    },
+    {
+      "owner_menu_id": "82",
+      "name": "查看",
+      "privilege_id": 85,
+      "privilege_code": "400500001",
+      "parent_privilege_id": 82,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400500001",
+        "PRIVILEGE_ID": 85,
+        "PARENT_PRIVILEGE_ID": 82,
+        "PRIVILEGE_NAME": "查看",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "82",
+      "name": "新增",
+      "privilege_id": 84,
+      "privilege_code": "400500002",
+      "parent_privilege_id": 82,
+      "privilege_type": "2",
+      "url": "/web-cust/fastTelephone/telephoneListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400500002",
+        "PRIVILEGE_ID": 84,
+        "PARENT_PRIVILEGE_ID": 82,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/fastTelephone/telephoneListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "82",
+      "name": "删除",
+      "privilege_id": 83,
+      "privilege_code": "400500003",
+      "parent_privilege_id": 82,
+      "privilege_type": "2",
+      "url": "/web-cust/fastTelephone/deleteTelephone",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400500003",
+        "PRIVILEGE_ID": 83,
+        "PARENT_PRIVILEGE_ID": 82,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/fastTelephone/deleteTelephone"
+      }
+    },
+    {
+      "owner_menu_id": "82",
+      "name": "查询",
+      "privilege_id": 1000002062,
+      "privilege_code": "400500004",
+      "parent_privilege_id": 82,
+      "privilege_type": "2",
+      "url": "/web-cust/fastTelephone/telephoneListQuery",
+      "source_fields": {
+        "PRIVILEGE_CODE": "400500004",
+        "PRIVILEGE_ID": 1000002062,
+        "PARENT_PRIVILEGE_ID": 82,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/fastTelephone/telephoneListQuery"
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "新增",
+      "privilege_id": 634,
+      "privilege_code": "920004001",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004001",
+        "PRIVILEGE_ID": 634,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "新增",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "复制",
+      "privilege_id": 637,
+      "privilege_code": "920004002",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004002",
+        "PRIVILEGE_ID": 637,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "复制",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "修改",
+      "privilege_id": 639,
+      "privilege_code": "920004003",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004003",
+        "PRIVILEGE_ID": 639,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "修改",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "删除",
+      "privilege_id": 640,
+      "privilege_code": "920004004",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004004",
+        "PRIVILEGE_ID": 640,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "删除",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "启用",
+      "privilege_id": 641,
+      "privilege_code": "920004005",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004005",
+        "PRIVILEGE_ID": 641,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "启用",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "停止",
+      "privilege_id": 642,
+      "privilege_code": "920004006",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004006",
+        "PRIVILEGE_ID": 642,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "停止",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "问卷链接",
+      "privilege_id": 643,
+      "privilege_code": "920004007",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004007",
+        "PRIVILEGE_ID": 643,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "问卷链接",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "新增模版",
+      "privilege_id": 5023,
+      "privilege_code": "920004009",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004009",
+        "PRIVILEGE_ID": 5023,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "新增模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "删除模版",
+      "privilege_id": 5024,
+      "privilege_code": "920004010",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004010",
+        "PRIVILEGE_ID": 5024,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "删除模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "复制模版",
+      "privilege_id": 5025,
+      "privilege_code": "920004011",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004011",
+        "PRIVILEGE_ID": 5025,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "复制模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "修改模版",
+      "privilege_id": 5026,
+      "privilege_code": "920004012",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004012",
+        "PRIVILEGE_ID": 5026,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "修改模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "启用模版",
+      "privilege_id": 5027,
+      "privilege_code": "920004013",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004013",
+        "PRIVILEGE_ID": 5027,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "启用模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "停止模版",
+      "privilege_id": 5028,
+      "privilege_code": "920004014",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004014",
+        "PRIVILEGE_ID": 5028,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "停止模版",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "模版问卷链接",
+      "privilege_id": 5029,
+      "privilege_code": "920004015",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004015",
+        "PRIVILEGE_ID": 5029,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "模版问卷链接",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "二维码下载",
+      "privilege_id": 1000001215,
+      "privilege_code": "920004016",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": null,
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004016",
+        "PRIVILEGE_ID": 1000001215,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "二维码下载",
+        "PRIVILEGE_TYPE": "2"
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "消息推送",
+      "privilege_id": 1000003612,
+      "privilege_code": "920004018",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004018",
+        "PRIVILEGE_ID": 1000003612,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "消息推送",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "短信推送",
+      "privilege_id": 1000003613,
+      "privilege_code": "920004019",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004019",
+        "PRIVILEGE_ID": 1000003613,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "短信推送",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "704",
+      "name": "查询",
+      "privilege_id": 1000002047,
+      "privilege_code": "920004020",
+      "parent_privilege_id": 704,
+      "privilege_type": "2",
+      "url": "/web-bus/pc/questionsConfigList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920004020",
+        "PRIVILEGE_ID": 1000002047,
+        "PARENT_PRIVILEGE_ID": 704,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-bus/pc/questionsConfigList"
+      }
+    },
+    {
+      "owner_menu_id": "5921",
+      "name": "公开问答报表管理导出",
+      "privilege_id": 5922,
+      "privilege_code": "920006001",
+      "parent_privilege_id": 5921,
+      "privilege_type": "2",
+      "url": "",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920006001",
+        "PRIVILEGE_ID": 5922,
+        "PARENT_PRIVILEGE_ID": 5921,
+        "PRIVILEGE_NAME": "公开问答报表管理导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": ""
+      }
+    },
+    {
+      "owner_menu_id": "5921",
+      "name": "查询",
+      "privilege_id": 1000002048,
+      "privilege_code": "920006002",
+      "parent_privilege_id": 5921,
+      "privilege_type": "2",
+      "url": "/web-cust/pc/WarningController/listOpenFaqReply.do",
+      "source_fields": {
+        "PRIVILEGE_CODE": "920006002",
+        "PRIVILEGE_ID": 1000002048,
+        "PARENT_PRIVILEGE_ID": 5921,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-cust/pc/WarningController/listOpenFaqReply.do"
+      }
+    },
+    {
+      "owner_menu_id": "628",
+      "name": "导出",
+      "privilege_id": 629,
+      "privilege_code": "500002001",
+      "parent_privilege_id": 628,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/exportTable",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500002001",
+        "PRIVILEGE_ID": 629,
+        "PARENT_PRIVILEGE_ID": 628,
+        "PRIVILEGE_NAME": "导出",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/exportTable"
+      }
+    },
+    {
+      "owner_menu_id": "628",
+      "name": "查询",
+      "privilege_id": 1000002077,
+      "privilege_code": "500002002",
+      "parent_privilege_id": 628,
+      "privilege_type": "2",
+      "url": "/web-seo/pc/telOpenDoorList",
+      "source_fields": {
+        "PRIVILEGE_CODE": "500002002",
+        "PRIVILEGE_ID": 1000002077,
+        "PARENT_PRIVILEGE_ID": 628,
+        "PRIVILEGE_NAME": "查询",
+        "PRIVILEGE_TYPE": "2",
+        "URL": "/web-seo/pc/telOpenDoorList"
+      }
+    }
+  ],
+  "limitations": [
+    "Menu visibility does not establish complete platform coverage across other accounts or roles.",
+    "Button privilege definitions identify configured actions and paths; they do not verify UI availability, endpoint behavior, or server-side authorization.",
+    "Names and URLs are preserved exactly, including source whitespace. Missing URL is null; source empty URL remains empty string.",
+    "The scenario overall completeness is incomplete; the specific menu response body is captured."
+  ]
+}

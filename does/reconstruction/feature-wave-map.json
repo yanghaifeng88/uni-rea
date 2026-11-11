@@ -1,0 +1,806 @@
+{
+  "status": "proposed",
+  "scope": "当前账号可见的79个二级入口；批次表示有条件的最早计划阶段，不能证明已就绪或其他角色覆盖完整。",
+  "source": "../function-catalog.json",
+  "prepared_date": "2026-10-14",
+  "phase_counts": {
+    "P1": 5,
+    "P2": 12,
+    "P3": 34,
+    "P4": 20,
+    "P5": 8
+  },
+  "entry_count": 79,
+  "entries": [
+    {
+      "menu_id": 1000000008,
+      "module": "客户服务",
+      "source_name": "待办任务",
+      "display_name": "待办任务",
+      "source_privilege_code": "100103",
+      "source_url": "/web-cust/pc/html/workbench/toDoTask.html",
+      "suggested_phase": "P3",
+      "conditions": "统一展示单据归属；旧未结在旧系统办理，新任务与工单分开建模。"
+    },
+    {
+      "menu_id": 8,
+      "module": "客户服务",
+      "source_name": "报事",
+      "display_name": "报事",
+      "source_privilege_code": "100101",
+      "source_url": "/web-cust/pc/html/work/sqgl.html",
+      "suggested_phase": "P3",
+      "conditions": "与服务调度诉求管理同一旧 URL；必须一起核验全渠道入口和不同权限。"
+    },
+    {
+      "menu_id": 6221,
+      "module": "客户服务",
+      "source_name": "代缴代扣管理",
+      "display_name": "代缴代扣管理",
+      "source_privilege_code": "100234",
+      "source_url": "/web-cust/pc/html/bankWithholding/bankWithholding.html",
+      "suggested_phase": "P5",
+      "conditions": "代缴代扣授权、支付渠道、对账、退款及重复回调全部核验后启用。"
+    },
+    {
+      "menu_id": 12,
+      "module": "客户服务",
+      "source_name": "放行条",
+      "display_name": "放行条",
+      "source_privilege_code": "100105",
+      "source_url": "/web-cust/pc/html/releaseBar/releaseBarList.html",
+      "suggested_phase": "P4",
+      "conditions": "现场放行规则与当前授权责任确认；历史迁入不生成新放行权。"
+    },
+    {
+      "menu_id": 13,
+      "module": "客户服务",
+      "source_name": "访客预约",
+      "display_name": "访客预约",
+      "source_privilege_code": "100106",
+      "source_url": "/web-cust/pc/html/visitorBespeak/listVisitorBespeakPC.html",
+      "suggested_phase": "P4",
+      "conditions": "预约、审批、有效期、撤销与设备实际授权一起验收。"
+    },
+    {
+      "menu_id": 25,
+      "module": "客户服务",
+      "source_name": "投诉",
+      "display_name": "投诉",
+      "source_privilege_code": "100107",
+      "source_url": "/web-cust/pc/html/work/tsList.html",
+      "suggested_phase": "P3",
+      "conditions": "核实投诉分派、时限、升级与回访；关联的旧工单仍由旧系统负责。"
+    },
+    {
+      "menu_id": 1221,
+      "module": "客户服务",
+      "source_name": "认证申请",
+      "display_name": "认证申请",
+      "source_privilege_code": "100110",
+      "source_url": "/web-cust/pc/html/certificationApplication/caList.html",
+      "suggested_phase": "P4",
+      "conditions": "核实申请、认证判断、审批与撤销；与客户房产主数据及客户入口同步切换。"
+    },
+    {
+      "menu_id": 1000000015,
+      "module": "客户服务",
+      "source_name": "评价结果",
+      "display_name": "评价结果",
+      "source_privilege_code": "100113",
+      "source_url": "/web-cust/pc/html/commentResult/commentResult.html",
+      "suggested_phase": "P3",
+      "conditions": "保留评价关联和来源；新评价仅对应已切换单据，不改变旧单状态。"
+    },
+    {
+      "menu_id": 1000000042,
+      "module": "客户服务",
+      "source_name": "工作计划",
+      "display_name": "工作计划",
+      "source_privilege_code": "100117",
+      "source_url": "/web-cust/pc/html/workPlan/workPlanList.html",
+      "suggested_phase": "P3",
+      "conditions": "确认计划、执行、验收与待办关系；切新计划入口并保留旧计划办理。"
+    },
+    {
+      "menu_id": 136,
+      "module": "客户服务",
+      "source_name": "邻里社交",
+      "display_name": "邻里社交",
+      "source_privilege_code": "100108",
+      "source_url": "/web-odm/pc/html/neighbourSocial/neighbourSocialList.html",
+      "suggested_phase": "P3",
+      "conditions": "先核实内容、审核、回复与可见范围；未切换客户端不可重复发布。"
+    },
+    {
+      "menu_id": 1721,
+      "module": "客户服务",
+      "source_name": "意见反馈",
+      "display_name": "意见反馈",
+      "source_privilege_code": "100901",
+      "source_url": "/web-seo/pc/html/feedbackInfo/feedbackInfoList.html",
+      "suggested_phase": "P3",
+      "conditions": "核实受理、分派和回复通知；旧未结反馈继续原系统办理。"
+    },
+    {
+      "menu_id": 1000000810,
+      "module": "客户服务",
+      "source_name": "空置房申请",
+      "display_name": "空置房申请",
+      "source_privilege_code": "100267",
+      "source_url": "/web-bus/pc/html/vacantRoomApply/vacantRoomApplyPC.html",
+      "suggested_phase": "P4",
+      "conditions": "核实申请、审批、巡检及相关费用；资金分支随 P5 或保留旧链。"
+    },
+    {
+      "menu_id": 1000000408,
+      "module": "客户服务",
+      "source_name": "装修申报",
+      "display_name": "装修申报",
+      "source_privilege_code": "100210",
+      "source_url": "/web-bus/pc/html/decorationManagement/index.html",
+      "suggested_phase": "P4",
+      "conditions": "确认申报审批、附件和通知；费用或押金环节仍留旧链或随 P5。"
+    },
+    {
+      "menu_id": 1000000410,
+      "module": "客户服务",
+      "source_name": "装修巡查清单",
+      "display_name": "装修巡查清单",
+      "source_privilege_code": "100212",
+      "source_url": "/web-bus/pc/html/inspectionList/index.html",
+      "suggested_phase": "P4",
+      "conditions": "与装修申请、点位、任务及整改链一起验收，不孤立重建巡查列表。"
+    },
+    {
+      "menu_id": 1000000409,
+      "module": "客户服务",
+      "source_name": "装修整改通知函",
+      "display_name": "装修整改通知函",
+      "source_privilege_code": "100211",
+      "source_url": "/web-bus/pc/html/decorationNotice/index.html",
+      "suggested_phase": "P4",
+      "conditions": "保留发函事实、附件和送达结果；旧函只读迁入不再次发送。"
+    },
+    {
+      "menu_id": 1000001108,
+      "module": "客户服务",
+      "source_name": "访客登记记录",
+      "display_name": "访客登记记录",
+      "source_privilege_code": "100902",
+      "source_url": "/un-pc-fronted/#/personAccess/registrationRecords/index",
+      "suggested_phase": "P4",
+      "conditions": "先可在 P2 迁只读历史；实际登记入口和访客授权归属在 P4 切换。"
+    },
+    {
+      "menu_id": 1000001109,
+      "module": "客户服务",
+      "source_name": "访客通行记录",
+      "display_name": "访客通行记录",
+      "source_privilege_code": "100903",
+      "source_url": "/un-pc-fronted/#/personAccess/transitRecords/index",
+      "suggested_phase": "P4",
+      "conditions": "先可在 P2 查历史；持续通行事件来源、去重和设备责任在 P4 核验。"
+    },
+    {
+      "menu_id": 22,
+      "module": "服务调度",
+      "source_name": "诉求管理",
+      "display_name": "诉求管理",
+      "source_privilege_code": "200100",
+      "source_url": "/web-cust/pc/html/work/sqgl.html",
+      "suggested_phase": "P3",
+      "conditions": "与报事一起切受控项目新单；派单、退回、验收和回访等异常分支逐项确认。"
+    },
+    {
+      "menu_id": 23,
+      "module": "服务调度",
+      "source_name": "管家关系配置",
+      "display_name": "管家关系配置",
+      "source_privilege_code": "200200",
+      "source_url": "/web-cust/pc/html/stewardConfig/stewardConfigList.html",
+      "suggested_phase": "P3",
+      "conditions": "先核实管家与项目、客户的关系；涉及共享主数据写入时延至 P4 移交。"
+    },
+    {
+      "menu_id": 1000000428,
+      "module": "配置管理",
+      "source_name": "装修配置",
+      "display_name": "装修配置",
+      "source_privilege_code": "920019",
+      "source_url": "/web-bus/pc/html/decorationConfig/decorationConfig.html",
+      "suggested_phase": "P4",
+      "conditions": "确认装修规则、项目范围及版本；已在办旧申请沿用原规则和办理系统。"
+    },
+    {
+      "menu_id": 597,
+      "module": "配置管理",
+      "source_name": "图片管理",
+      "display_name": "图片管理",
+      "source_privilege_code": "920001",
+      "source_url": "/web-cust/pc/html/confManagement/imgConfList.html",
+      "suggested_phase": "P3",
+      "conditions": "基础存储在 P1 建设，本菜单内容管理在 P3 切；旧图片复制与授权另核验。"
+    },
+    {
+      "menu_id": 625,
+      "module": "配置管理",
+      "source_name": "门设备管理",
+      "display_name": "门设备管理",
+      "source_privilege_code": "920003",
+      "source_url": "/web-bus/pc/html/DoorEquipmentManagement/doorEquipList.html",
+      "suggested_phase": "P4",
+      "conditions": "设备厂商协议、账号和现场控制可得；先实验环境，再现场按设备组切换。"
+    },
+    {
+      "menu_id": 77,
+      "module": "配置管理",
+      "source_name": "消息模板",
+      "display_name": "消息模板",
+      "source_privilege_code": "400300",
+      "source_url": "/web-bus/pc/html/templateManage/templateList.html",
+      "suggested_phase": "P1",
+      "conditions": "新模板建立版本与项目范围；真实发送在对应业务切换后启用。"
+    },
+    {
+      "menu_id": 704,
+      "module": "配置管理",
+      "source_name": "问卷配置",
+      "display_name": "问卷配置",
+      "source_privilege_code": "920004",
+      "source_url": "/web-bus/pc/html/questionsConfig/questionsConfigList.html",
+      "suggested_phase": "P3",
+      "conditions": "问题版本、受众和答卷关系可验证；进行中的旧问卷留旧系统完成。"
+    },
+    {
+      "menu_id": 5121,
+      "module": "配置管理",
+      "source_name": "评价二维码管理",
+      "display_name": "评价二维码管理",
+      "source_privilege_code": "920008",
+      "source_url": "/web-bus/pc/html/scanEvaluate/qrCode/qrCodeList.html",
+      "suggested_phase": "P3",
+      "conditions": "印制二维码及旧域名是长期入口；先验证跳转与单据归属，不能仅重建管理页。"
+    },
+    {
+      "menu_id": 1000000053,
+      "module": "配置管理",
+      "source_name": "手机开门推送配置",
+      "display_name": "手机开门推送配置",
+      "source_privilege_code": "920012",
+      "source_url": "/web-bus/pc/html/openDoor/push_manage_list.html",
+      "suggested_phase": "P4",
+      "conditions": "手机开门授权与推送渠道联测；新旧不能同时执行同一授权动作。"
+    },
+    {
+      "menu_id": 1000002512,
+      "module": "配置管理",
+      "source_name": "电梯管理",
+      "display_name": "电梯管理",
+      "source_privilege_code": "920988",
+      "source_url": "/web-bus/pc/html/elevatorManage/elevator_manage.html?checkVisitor=1",
+      "suggested_phase": "P4",
+      "conditions": "确认设备协议、梯控权限、安全运行和人工备用；历史不能激活梯控授权。"
+    },
+    {
+      "menu_id": 1000003618,
+      "module": "配置管理",
+      "source_name": "抵扣券导入\r\n",
+      "display_name": "抵扣券导入",
+      "source_privilege_code": "920013",
+      "source_url": "/web-cust/pc/html/deductionVoucher/deductionVoucherList.html",
+      "suggested_phase": "P5",
+      "conditions": "导入的有效性、余额、核销与过期规则确认；历史导入不再次发券。"
+    },
+    {
+      "menu_id": 1000003627,
+      "module": "配置管理",
+      "source_name": "报告台岗位管理\r\n",
+      "display_name": "报告台岗位管理",
+      "source_privilege_code": "920014",
+      "source_url": "/web-cust/pc/html/report/postPoolList.html",
+      "suggested_phase": "P3",
+      "conditions": "岗位含义与审核依赖尚需确认；仅在权限边界明确后启用，复杂流程可延后。"
+    },
+    {
+      "menu_id": 1000003628,
+      "module": "配置管理",
+      "source_name": "报告台基础配置管理\r\n",
+      "display_name": "报告台基础配置管理",
+      "source_privilege_code": "920015",
+      "source_url": "/web-cust/pc/html/report/baseConfigList.html",
+      "suggested_phase": "P3",
+      "conditions": "逐配置确认所有者、适用范围和依赖；不整表覆盖旧系统配置。"
+    },
+    {
+      "menu_id": 1000003639,
+      "module": "配置管理",
+      "source_name": "质检员点位管理",
+      "display_name": "质检员点位管理",
+      "source_privilege_code": "920016",
+      "source_url": "/web-cust/pc/html/inspectionManagement/inspeConfList.html",
+      "suggested_phase": "P4",
+      "conditions": "点位身份与项目范围确认；与质检员权限和品质流程共同切换。"
+    },
+    {
+      "menu_id": 1000000717,
+      "module": "配置管理",
+      "source_name": "空置房配置",
+      "display_name": "空置房配置",
+      "source_privilege_code": "920018",
+      "source_url": "/web-bus/pc/html/vacantRoomConfigure/vacantRoomConfigureByPC.html",
+      "suggested_phase": "P4",
+      "conditions": "逐项确认空置房规则、范围和生效版本，与申请流程同批。"
+    },
+    {
+      "menu_id": 1000001408,
+      "module": "配置管理",
+      "source_name": "缴费二维码管理",
+      "display_name": "缴费二维码管理",
+      "source_privilege_code": "920989",
+      "source_url": "/un-pc-fronted/#/formsManagement/paymentQRcodeManagement/index",
+      "suggested_phase": "P5",
+      "conditions": "印制码、收款主体、账单归属和原支付回调迁移均需验证。"
+    },
+    {
+      "menu_id": 1000001409,
+      "module": "配置管理",
+      "source_name": "角色清单导出",
+      "display_name": "角色清单导出",
+      "source_privilege_code": "920990",
+      "source_url": "/un-pc-fronted/#/formsManagement/roleListExport/index",
+      "suggested_phase": "P2",
+      "conditions": "先提供核验后的新角色清单；旧角色导出仅作历史对照，不转成新授权。"
+    },
+    {
+      "menu_id": 102,
+      "module": "客户管理",
+      "source_name": "客户管理",
+      "display_name": "客户管理",
+      "source_privilege_code": "300001",
+      "source_url": "/web-cust/pc/html/Customers/CustomerList.html",
+      "suggested_phase": "P4",
+      "conditions": "先在 P2 只读核对，切换维护时明确唯一权威来源及全部上游写入。"
+    },
+    {
+      "menu_id": 117,
+      "module": "客户管理",
+      "source_name": "房产管理",
+      "display_name": "房产管理",
+      "source_privilege_code": "300002",
+      "source_url": "/web-cust/pc/html/Customers/HourseList.html",
+      "suggested_phase": "P4",
+      "conditions": "核验房产身份、层级与住户期间；客户和认证链同步移交，不能两边自由编辑。"
+    },
+    {
+      "menu_id": 60,
+      "module": "运营中心",
+      "source_name": "公告公示",
+      "display_name": "公告公示",
+      "source_privilege_code": "400112",
+      "source_url": "/web-bus/pc/html/procla/proclaList.html",
+      "suggested_phase": "P3",
+      "conditions": "核实发布渠道、受众和撤回规则；旧 APP 未支持新内容前保留旧发布链。"
+    },
+    {
+      "menu_id": 73,
+      "module": "运营中心",
+      "source_name": "广告管理",
+      "display_name": "广告管理",
+      "source_privilege_code": "400200",
+      "source_url": "/web-bus/pc/html/admanage/advertisingList.html",
+      "suggested_phase": "P3",
+      "conditions": "广告位、有效期与终端读取已验证；商业订单或支付分支延至 P5。"
+    },
+    {
+      "menu_id": 82,
+      "module": "运营中心",
+      "source_name": "便民电话",
+      "display_name": "便民电话",
+      "source_privilege_code": "400500",
+      "source_url": "/web-cust/pc/html/fastTelephone/telephoneList.html",
+      "suggested_phase": "P3",
+      "conditions": "适合低耦合试点；核实客户终端读取，按项目发布并保留版本。"
+    },
+    {
+      "menu_id": 116,
+      "module": "运营中心",
+      "source_name": "房产交易",
+      "display_name": "房产交易",
+      "source_privilege_code": "400700",
+      "source_url": "/web-bus/pc/html/houseSell/houseSellList.html",
+      "suggested_phase": "P5",
+      "conditions": "先确认房产交易业务实质和外部平台；订单、合同或资金分支逐项验收。"
+    },
+    {
+      "menu_id": 2121,
+      "module": "运营中心",
+      "source_name": "社区活动",
+      "display_name": "社区活动",
+      "source_privilege_code": "400120",
+      "source_url": "/web-odm/pc/html/communityActivity/communityActivityList.html",
+      "suggested_phase": "P3",
+      "conditions": "先上线不收费且无关联交易的活动；收费、订单、退款分支随 P5。"
+    },
+    {
+      "menu_id": 1000000019,
+      "module": "运营中心",
+      "source_name": "议事大厅",
+      "display_name": "议事大厅",
+      "source_privilege_code": "100114",
+      "source_url": "/web-cust/pc/html/discuss/discuss_list.html",
+      "suggested_phase": "P3",
+      "conditions": "核实发布、审核、讨论与通知；客户端入口可控才切换。"
+    },
+    {
+      "menu_id": 121,
+      "module": "综合查询",
+      "source_name": "综合查询",
+      "display_name": "综合查询",
+      "source_privilege_code": "500001",
+      "source_url": "/web-seo/pc/html/zhcx/zhcx.html",
+      "suggested_phase": "P2",
+      "conditions": "先汇聚已验证的只读范围；旧详情是否修改待办需逐入口核验。"
+    },
+    {
+      "menu_id": 628,
+      "module": "综合查询",
+      "source_name": "开门记录",
+      "display_name": "开门记录",
+      "source_privilege_code": "500002",
+      "source_url": "/web-seo/pc/html/telOpenDoor/telOpenDoorList.html",
+      "suggested_phase": "P2",
+      "conditions": "先迁可取得的通行历史；不因此授予开门能力，设备控制另在 P4 验收。"
+    },
+    {
+      "menu_id": 1000000002,
+      "module": "综合查询",
+      "source_name": "客户号码变更查询",
+      "display_name": "客户号码变更查询",
+      "source_privilege_code": "500003",
+      "source_url": "/web-seo/pc/html/custUpdateLog/custUpdateLog.html",
+      "suggested_phase": "P2",
+      "conditions": "保留变更前后值与有效时间；没有历史明细则明确缺口。"
+    },
+    {
+      "menu_id": 6321,
+      "module": "综合查询",
+      "source_name": "员工评价",
+      "display_name": "员工评价",
+      "source_privilege_code": "100129",
+      "source_url": "/web-bus/pc/html/evaluationRecords/evaluationRecords.html",
+      "suggested_phase": "P3",
+      "conditions": "员工身份、评价对象与可见范围明确；旧历史缺口单独呈现。"
+    },
+    {
+      "menu_id": 1000001308,
+      "module": "综合查询",
+      "source_name": "一户一档",
+      "display_name": "一户一档",
+      "source_privilege_code": "500005",
+      "source_url": "/un-pc-fronted/#/formsManagement/gearPerHousehold/index",
+      "suggested_phase": "P2",
+      "conditions": "先建客户房产只读档案与关系核对；可编辑主数据随 P4 移交。"
+    },
+    {
+      "menu_id": 95,
+      "module": "综合查询",
+      "source_name": "活动",
+      "display_name": "活动",
+      "source_privilege_code": "101000",
+      "source_url": "/web-odm/pc/html/groupBusiness/activityList.html",
+      "suggested_phase": "P3",
+      "conditions": "核验与社区活动的关系，先只读或不收费分支；订单与支付分支随 P5。"
+    },
+    {
+      "menu_id": 1000003704,
+      "module": "综合查询",
+      "source_name": "违约金减免清单",
+      "display_name": "违约金减免清单",
+      "source_privilege_code": "600908",
+      "source_url": "/web-seo/pc/html/liquidatedList/liquidatedList.html",
+      "suggested_phase": "P5",
+      "conditions": "核实减免授权、审批轨迹与账务影响；保留原决定，不补造审批过程。"
+    },
+    {
+      "menu_id": 1000000013,
+      "module": "统计中心",
+      "source_name": "电子发票管理",
+      "display_name": "电子发票管理",
+      "source_privilege_code": "100112",
+      "source_url": "/web-cust/pc/html/invoiceSalesInfo/invoiceSalesInfoList.html",
+      "suggested_phase": "P5",
+      "conditions": "原票据与支付身份保留；开票、红冲或作废按核实后的渠道契约执行。"
+    },
+    {
+      "menu_id": 605,
+      "module": "统计中心",
+      "source_name": "用户使用详情",
+      "display_name": "用户使用详情",
+      "source_privilege_code": "600300",
+      "source_url": "/web-seo/pc/html/useInfo/useInfo.html",
+      "suggested_phase": "P2",
+      "conditions": "只读保留来源与采集范围；使用量统计定义和用户身份需确认。"
+    },
+    {
+      "menu_id": 608,
+      "module": "统计中心",
+      "source_name": "员工登录清单",
+      "display_name": "员工登录清单",
+      "source_privilege_code": "600400",
+      "source_url": "/web-seo/pc/html/staffLoginList/staffLoginList.html",
+      "suggested_phase": "P2",
+      "conditions": "迁可得登录历史，明确员工与账号映射、时间和范围。"
+    },
+    {
+      "menu_id": 609,
+      "module": "统计中心",
+      "source_name": "业主登录清单",
+      "display_name": "业主登录清单",
+      "source_privilege_code": "600500",
+      "source_url": "/web-seo/pc/html/esmpLoginCust/esmpLoginCustList.html",
+      "suggested_phase": "P2",
+      "conditions": "迁可得登录历史，住户身份与查询权限单独校验。"
+    },
+    {
+      "menu_id": 635,
+      "module": "统计中心",
+      "source_name": "问卷结果",
+      "display_name": "问卷结果",
+      "source_privilege_code": "600600",
+      "source_url": "/web-seo/pc/html/QuestionnaireResult/questionList.html",
+      "suggested_phase": "P3",
+      "conditions": "与问卷同批，核实答卷来源、去重和统计，历史不能补造答案。"
+    },
+    {
+      "menu_id": 615,
+      "module": "统计中心",
+      "source_name": "费用查询",
+      "display_name": "费用查询",
+      "source_privilege_code": "600006",
+      "source_url": "/web-seo/pc/html/chargeQuery/chargeQueryList.html",
+      "suggested_phase": "P5",
+      "conditions": "可提前保留只读旧报表；新费用权威查询需逐笔数据和账期对账支持。"
+    },
+    {
+      "menu_id": 5921,
+      "module": "统计中心",
+      "source_name": "公开问答报表管理",
+      "display_name": "公开问答报表管理",
+      "source_privilege_code": "920006",
+      "source_url": "/web-cust/pc/html/faq/faqStatementsByCity.html",
+      "suggested_phase": "P3",
+      "conditions": "先确认问答来源和口径；未知来源继续旧查询，不能按名称推定后台规则。"
+    },
+    {
+      "menu_id": 1000000621,
+      "module": "统计中心",
+      "source_name": "员工受欢迎指数报表",
+      "display_name": "员工受欢迎指数报表",
+      "source_privilege_code": "600701",
+      "source_url": "/web-seo/pc/html/StaffPopularity/staff_popularity_orglist.html",
+      "suggested_phase": "P3",
+      "conditions": "员工身份、评价样本与公式得到确认后才发布新指标。"
+    },
+    {
+      "menu_id": 1000003614,
+      "module": "统计中心",
+      "source_name": "活跃度统计报表",
+      "display_name": "活跃度统计报表",
+      "source_privilege_code": "600904",
+      "source_url": "/web-cust/pc/html/activationForOrg/activationForOrg.html",
+      "suggested_phase": "P3",
+      "conditions": "明确活跃行为、人数去重和时间窗口；保留原报表快照。"
+    },
+    {
+      "menu_id": 1000000813,
+      "module": "统计中心",
+      "source_name": "品检追踪",
+      "display_name": "品检追踪",
+      "source_privilege_code": "600911",
+      "source_url": "/web-seo/pc/html/qualityProblemsTrack/index.html",
+      "suggested_phase": "P4",
+      "conditions": "核实品质问题、点位、整改和追踪关系；状态闭环与现场负责人验收。"
+    },
+    {
+      "menu_id": 1000003310,
+      "module": "统计中心",
+      "source_name": "扫码评价运营报表",
+      "display_name": "扫码评价运营报表",
+      "source_privilege_code": "600912",
+      "source_url": "/web-seo/pc/html/CodeScanningEvaluationReport/codeEvaluationView.html",
+      "suggested_phase": "P3",
+      "conditions": "评价渠道与项目归属可核验，和二维码、评价业务一起验收。"
+    },
+    {
+      "menu_id": 1000003311,
+      "module": "统计中心",
+      "source_name": "扫码评价统计报表",
+      "display_name": "扫码评价统计报表",
+      "source_privilege_code": "600913",
+      "source_url": "/web-seo/pc/html/CodeScanningStatisticsReport/codeEvaluationView.html",
+      "suggested_phase": "P3",
+      "conditions": "统一扫码评价统计口径；旧新来源分列并核对迟到评价。"
+    },
+    {
+      "menu_id": 1000001212,
+      "module": "报表管理",
+      "source_name": "员工评价报表",
+      "display_name": "员工评价报表",
+      "source_privilege_code": "930100",
+      "source_url": "/web-report/pc/html/employeeEvaluationStatement/groupView1.html",
+      "suggested_phase": "P3",
+      "conditions": "与员工评价同批验收口径；新旧范围分列，避免直接合并汇总。"
+    },
+    {
+      "menu_id": 4121,
+      "module": "报表管理",
+      "source_name": "服务调度",
+      "display_name": "服务调度",
+      "source_privilege_code": "600820",
+      "source_url": "/web-report/pc/html/schedulingEfficiency/efficiencyView1.html",
+      "suggested_phase": "P3",
+      "conditions": "随工单试点验证派单与办理统计；仅含已核验项目和来源范围。"
+    },
+    {
+      "menu_id": 4122,
+      "module": "报表管理",
+      "source_name": "诉求管理",
+      "display_name": "诉求管理",
+      "source_privilege_code": "600830",
+      "source_url": "/web-report/pc/html/accountStatement/accountStatementList.html",
+      "suggested_phase": "P3",
+      "conditions": "先核验与同名办理菜单的区别；报表指标不推定等于工单当前状态计数。"
+    },
+    {
+      "menu_id": 821,
+      "module": "报表管理",
+      "source_name": "用户量",
+      "display_name": "用户量",
+      "source_privilege_code": "600700",
+      "source_url": "/web-report/pc/html/userStatistics/ReportUserStatisticsRegisterList.html",
+      "suggested_phase": "P2",
+      "conditions": "先复核用户量定义、去重身份与时间口径，再发布只读对照。"
+    },
+    {
+      "menu_id": 5721,
+      "module": "报表管理",
+      "source_name": "积分报表",
+      "display_name": "积分报表",
+      "source_privilege_code": "930888",
+      "source_url": "/web-cust/pc/html/integralStatements/integralStatementsByOrg.html",
+      "suggested_phase": "P5",
+      "conditions": "确认积分产生、兑换、作废与历史余额；先取得可靠流水，不仅迁汇总余额。"
+    },
+    {
+      "menu_id": 5821,
+      "module": "报表管理",
+      "source_name": "工作计划报表",
+      "display_name": "工作计划报表",
+      "source_privilege_code": "930900",
+      "source_url": "/web-seo/pc/html/workPlanStatement/groupView1.html",
+      "suggested_phase": "P3",
+      "conditions": "跟随工作计划责任切换，核实完成和逾期定义以及历史可得范围。"
+    },
+    {
+      "menu_id": 3221,
+      "module": "报表管理",
+      "source_name": "过程效率",
+      "display_name": "过程效率",
+      "source_privilege_code": "600810",
+      "source_url": "/web-report/pc/html/processEfficiency/efficiencyView.html",
+      "suggested_phase": "P3",
+      "conditions": "受理、派单、处理等计时节点与暂停规则明确后，随工单试点并行核算。"
+    },
+    {
+      "menu_id": 1621,
+      "module": "报表管理",
+      "source_name": "星海图",
+      "display_name": "星海图",
+      "source_privilege_code": "600910",
+      "source_url": "/web-report/pc/html/viewport/viewportImage.html",
+      "suggested_phase": "P2",
+      "conditions": "先保留原大屏快照与已观察读取；后台指标公式未取得，按逐指标验收重建。"
+    },
+    {
+      "menu_id": 1000003718,
+      "module": "报表管理",
+      "source_name": "装修信息报表",
+      "display_name": "装修信息报表",
+      "source_privilege_code": "930912",
+      "source_url": "/web-report/pc/html/fitmentMsgReport/index.html",
+      "suggested_phase": "P4",
+      "conditions": "随装修流程验收口径；历史申请与新申请分别显示办理系统。"
+    },
+    {
+      "menu_id": 1000003719,
+      "module": "报表管理",
+      "source_name": "装修户巡查动态报表",
+      "display_name": "装修户巡查动态报表",
+      "source_privilege_code": "930913",
+      "source_url": "/web-report/pc/html/activeReport/index.html",
+      "suggested_phase": "P4",
+      "conditions": "巡查节点、整改期限和动态范围确认后并行对账。"
+    },
+    {
+      "menu_id": 1000001008,
+      "module": "报表管理",
+      "source_name": "管家服务分析看板",
+      "display_name": "管家服务分析看板",
+      "source_privilege_code": "930915",
+      "source_url": "/un-pc-fronted/#/formsManagement/wecomHousekeepBoard/index",
+      "suggested_phase": "P2",
+      "conditions": "只读并行核验管家关系与指标；未切换旧业务继续按旧口径显示。"
+    },
+    {
+      "menu_id": 1000000908,
+      "module": "报表管理",
+      "source_name": "企微管家应用情况",
+      "display_name": "企微管家应用情况",
+      "source_privilege_code": "930914",
+      "source_url": "/web-report/pc/html/wecomReport/index.html",
+      "suggested_phase": "P2",
+      "conditions": "先核实企微数据和身份接口；拿不到来源则保留旧入口，不凭标题造数据。"
+    },
+    {
+      "menu_id": 14,
+      "module": "系统中心",
+      "source_name": "用户管理",
+      "display_name": "用户管理",
+      "source_privilege_code": "700100",
+      "source_url": "/web-sys/pc/html/empee/empee_list.html",
+      "suggested_phase": "P1",
+      "conditions": "建立公司控制的新账号与组织范围；旧账号历史映射保留，旧系统登录继续独立。"
+    },
+    {
+      "menu_id": 15,
+      "module": "系统中心",
+      "source_name": "角色管理",
+      "display_name": "角色管理",
+      "source_privilege_code": "700200",
+      "source_url": "/web-sys/pc/html/roleManage/roleList.html",
+      "suggested_phase": "P1",
+      "conditions": "先建新平台角色和服务端项目授权；旧按钮定义需重核，不能直接复制授权。"
+    },
+    {
+      "menu_id": 19,
+      "module": "系统中心",
+      "source_name": "服务中心管理",
+      "display_name": "服务中心管理",
+      "source_privilege_code": "700600",
+      "source_url": "/web-sys/pc/html/centermanagement/centerone.html",
+      "suggested_phase": "P1",
+      "conditions": "核对组织、项目与服务中心关系；新基础可上线，主数据写入移交单独验收。"
+    },
+    {
+      "menu_id": 595,
+      "module": "系统中心",
+      "source_name": "消息发送",
+      "display_name": "消息发送",
+      "source_privilege_code": "700700",
+      "source_url": "/web-sys/pc/html/messageManage/messageList.html",
+      "suggested_phase": "P3",
+      "conditions": "先支持新系统负责的业务；受众、去重、失败重试和渠道账号均需验证。"
+    },
+    {
+      "menu_id": 5521,
+      "module": "系统中心",
+      "source_name": "接口日志管理",
+      "display_name": "接口日志管理",
+      "source_privilege_code": "700900",
+      "source_url": "/web-sys/pc/html/interfaceLogManage/interfaceLogList.html",
+      "suggested_phase": "P1",
+      "conditions": "新接口审计随基础平台建设；旧日志按可得范围归档，权限与认证值分开处理。"
+    },
+    {
+      "menu_id": 6023,
+      "module": "系统中心",
+      "source_name": "消息通知",
+      "display_name": "消息通知",
+      "source_privilege_code": "701100",
+      "source_url": "/portal/notice/notice.html",
+      "suggested_phase": "P3",
+      "conditions": "消息读取可能更新状态；先核验读取契约与新旧投递责任，避免重复通知。"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-14",
+  "source": "Codex browser tool, read-only rendered DOM in the user's original in-app browser; separate browser context from REA Chrome captures",
+  "scope": "Same portal account and same catalog menu IDs. Labels, headers and button names only; no business rows, field values or credentials.",
+  "observations": [
+    {
+      "reference": "UI-SPA-100902",
+      "name": "访客登记记录",
+      "menu_id": "1000001108",
+      "placeholders": [
+        "预约提交开始时间",
+        "预约提交结束时间",
+        "访客姓名/手机号码/住户姓名/住户手机号码"
+      ],
+      "headers": [
+        "序号",
+        "平台公司",
+        "城市公司",
+        "服务中心",
+        "访客姓名",
+        "访客手机号码",
+        "来访事由",
+        "来访具体事项",
+        "来访住户姓名",
+        "来访住户手机号码",
+        "授权门禁",
+        "来访周期",
+        "来访日期",
+        "人脸头像",
+        "工作证照片",
+        "AB证",
+        "来访房间号",
+        "证明图片",
+        "备注",
+        "状态",
+        "是否删除",
+        "提交时间",
+        "审批人员",
+        "审批意见",
+        "审批时间",
+        "登记渠道"
+      ],
+      "buttons": [
+        "代客登记",
+        "查 询",
+        "导出Excel"
+      ]
+    },
+    {
+      "reference": "UI-SPA-100903",
+      "name": "访客通行记录",
+      "menu_id": "1000001109",
+      "placeholders": [
+        "开始时间",
+        "结束时间",
+        "姓名/手机号/通行身份/点位名称"
+      ],
+      "headers": [
+        "序号",
+        "平台公司",
+        "城市公司",
+        "服务中心",
+        "姓名",
+        "手机号码",
+        "访客身份",
+        "通行方向",
+        "通行方式",
+        "点位名称",
+        "通行时间",
+        "通行状态",
+        "通行人脸抓拍"
+      ],
+      "buttons": [
+        "查 询",
+        "导出Excel"
+      ]
+    },
+    {
+      "reference": "UI-SPA-920989",
+      "name": "缴费二维码管理",
+      "menu_id": "1000001408",
+      "placeholders": [],
+      "headers": [
+        "序号",
+        "平台公司",
+        "城市公司",
+        "项目",
+        "支付能力",
+        "二维码预览",
+        "操作"
+      ],
+      "buttons": [
+        "查 询",
+        "批量下载二维码"
+      ]
+    },
+    {
+      "reference": "UI-SPA-920990",
+      "name": "角色清单导出",
+      "menu_id": "1000001409",
+      "placeholders": [],
+      "headers": [
+        "序号",
+        "平台公司",
+        "城市公司",
+        "项目",
+        "项目编码",
+        "员工姓名",
+        "员工工号",
+        "员工角色"
+      ],
+      "buttons": [
+        "查 询",
+        "角色清单导出"
+      ]
+    },
+    {
+      "reference": "UI-SPA-500005",
+      "name": "一户一档",
+      "menu_id": "1000001308",
+      "placeholders": [],
+      "headers": [],
+      "buttons": [
+        "查 询",
+        "导 出",
+        "导 入"
+      ],
+      "limitations": [
+        "No native table header elements were returned; dynamic columns and form semantics remain unconfirmed."
+      ]
+    },
+    {
+      "reference": "UI-SPA-930915",
+      "name": "管家服务分析看板",
+      "menu_id": "1000001008",
+      "placeholders": [
+        "开始日期",
+        "结束日期",
+        "开始日期",
+        "结束日期"
+      ],
+      "headers": [],
+      "buttons": [
+        "导 出"
+      ],
+      "limitations": [
+        "Chart metrics and calculation formulas were not captured by this DOM metadata inspection."
+      ]
+    }
+  ]
+}
